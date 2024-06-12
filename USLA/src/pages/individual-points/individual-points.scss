@@ -1,0 +1,74 @@
+page-individual-points {
+    .searchbar-input {
+        background-color: white!important;
+    }
+
+    .segment-button {
+        color: white!important;
+        font-weight: bold;
+        border-color: rgb(214, 61, 61)!important;
+        height: 3.2rem!important;
+        line-height: 3rem!important;
+    }
+
+    .headerRow .col {
+        //text-align: center;
+        font-weight: 600;
+    }
+
+    .headerRow {
+        border-bottom: 1px solid black!important;
+        text-align: center;
+        //margin-bottom: 10px;
+    }
+    
+    .grid {
+        padding: 0px;
+    }
+
+    .pointsCol, .nameCol {
+        padding-left: 5px!important;
+    }
+
+    .col {
+        border-left: 1px solid black;
+    }
+
+    .row > .col:first-of-type {
+        border-left: none!important;
+        text-align: center;
+    }
+
+    .row:nth-child(2) .col {
+        //padding-top: 10px;
+    }
+
+    .row .col {
+        padding: 10px 0px;
+    }
+
+    .row {
+        border-bottom: 0.55px solid rgba(0, 0, 0, 0.322);
+    }
+
+    .fixed-header{
+        //margin-top: 86px;
+        height: 28px;
+        width:100%;
+        //position:absolute;
+        z-index: 1;
+        /* 
+            The ionic header bar is 43px in height,
+            put your content below the header bar.
+        */
+    }
+
+    .fixed-header .col {
+        height: 28px;
+        padding: 5px 0px!important;
+    }
+
+    .scroll-content {
+        margin-top: 116px!important;
+    } 
+}

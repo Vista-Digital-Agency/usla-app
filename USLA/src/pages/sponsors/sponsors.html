@@ -1,0 +1,63 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Sponsors</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div class="busCon">
+    <div class="events" ion-item *ngFor="let item of sponsors">
+        <ion-card>
+          <ion-card-content>
+            <ion-card-title>
+              {{ item.name }}
+            </ion-card-title>
+
+            <div class="imageCon">
+              <img [src]="item.image"/>
+            </div>
+          </ion-card-content>
+          <ion-row *ngIf="item.address != ''" class="allInfo">
+            <ion-col col-4>
+              <button ion-button color="water" (click)="website(item.link)">
+                <div>Website</div>
+
+                <div>
+                  <ion-icon name='globe'></ion-icon>
+                </div>
+              </button>
+            </ion-col>
+            <ion-col col-4>
+              <button ion-button color="water" (click)="directions(item.address)">
+                <div>Directions</div>
+
+                <div>
+                  <ion-icon name='car'></ion-icon>
+                </div>
+              </button>
+            </ion-col>
+            <ion-col col-4>
+              <button ion-button color="water" (click)="call(item.phone)">
+                <div>Phone</div>
+                
+                <div>
+                  <ion-icon name='call'></ion-icon>
+                </div>
+              </button>
+            </ion-col>
+          </ion-row>
+          <ion-row *ngIf="item.address == ''">
+            <ion-col style="text-align: center;">
+              <button ion-button icon-left color="water" (click)="website(item.link)">
+                <ion-icon name='globe'></ion-icon>
+                Website
+              </button>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </div>
+    </div>
+</ion-content>

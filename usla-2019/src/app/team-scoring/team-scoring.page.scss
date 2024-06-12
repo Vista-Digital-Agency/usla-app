@@ -1,0 +1,108 @@
+
+        .fixed-header{
+            //margin-top: 86px;
+            height: 28px;
+            width:100%;
+            //position:absolute;
+            z-index: 1;
+            /* 
+                The ionic header bar is 43px in height,
+                put your content below the header bar.
+            */
+        }
+    
+        .platform-webview.platform-ios.platform-cordova .fixed-header{
+            //margin-top: 106px;
+        }
+    
+        .content {
+           //margin-top: 28px;
+        }
+    
+        .platform-webview.platform-ios.platform-cordova .content {
+            //margin-top: 28px;
+        }
+    
+        .scroll-content {
+            margin-top: 116px!important;
+        } 
+    
+        .toolbar .select {
+            margin: 0px auto;
+            background-color: white;
+            max-width: 70%;
+            padding: 9px 8px 9px 16px;
+        }
+    
+        ion-toolbar {
+            padding-top: 0px!important;
+        }
+    
+        ion-toolbar .toolbar-background {
+            //background-color: rgba(9, 54, 122, 0.623);
+        }
+    
+        .headerRow ion-col {
+            //text-align: center;
+            font-weight: 600;
+        }
+    
+        .headerRow {
+            border-bottom: 1px solid black!important;
+            text-align: center;
+            //margin-bottom: 10px;
+        }
+    
+        .chapterRow {
+            background-color: #ca002d;
+            color: white;
+            font-weight: 600;
+        }
+        
+        ion-grid {
+            padding: 0px;
+        }
+    
+        .pointsCol, .nameCol {
+            padding-left: 5px!important;
+        }
+    
+        .outerGrid > ion-row:first-child > ion-col:first-of-type {
+            padding-top: 0px!important;
+        }
+    
+        .outerGrid > ion-row:first-child > ion-col:first-of-type .card {
+            margin-top: 0px;
+        }
+    
+        ion-col {
+            border-left: 1px solid black;
+            text-align: center;
+        }
+    
+        .card {
+            margin: 5px 0px;
+            width: 100%;
+            //width: calc(100% - 10px);
+        }
+    
+        ion-row > ion-col:first-of-type {
+            border-left: none!important;
+            text-align: center;
+        }
+    
+        ion-row:nth-child(2) ion-col {
+            //padding-top: 10px;
+        }
+    
+        ion-row ion-col {
+            padding: 5px 0px;
+        }
+    
+        ion-row {
+            border-bottom: 0.55px solid rgba(0, 0, 0, 0.322);
+        }
+    
+    #teamSelect {
+        font-weight: bold;
+    }

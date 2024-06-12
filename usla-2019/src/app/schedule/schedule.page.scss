@@ -1,0 +1,27 @@
+.outerRow {
+    border: 1px solid black;
+}
+
+.dTime {
+    text-align: center;
+}
+
+.outerRow > ion-col {
+    padding-bottom: 10px;
+}
+
+.outerRow:first-of-type {
+    border-top-width: 2px;
+}
+
+ion-button {
+    font-weight: bold;
+}
+
+.calBtn {
+    text-align: center;
+}
+
+.eventTitle {
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>August {{ selectedDate }}th</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <div class="eventsCon">
+    <div class="events" ion-item *ngFor="let item of events | dateSorter: 'dateTime'" (click)="eventClicked(item)">
+      <div class="eventTitle">{{ item.name }}</div>
+
+      <div class="eventDate">
+          {{ item.time }}
+          <div class="blankSpace"></div>
+          {{ item.dateTime | date: 'mediumDate' }} 
+      </div>
+    </div>
+  </div>
+</ion-content>

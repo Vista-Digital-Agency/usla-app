@@ -1,0 +1,49 @@
+/*ion-item {
+    ion-label {
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+    padding: 2px 5px;
+    text-align: center;
+    --min-height: 50px;
+}*/
+
+ion-item {
+    ion-label {
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin: 0px auto;
+        white-space: normal;
+        text-align: center;
+        padding: 5px;
+        width: 100%!important;
+    }
+    border-bottom: 1px solid rgba(58, 58, 58, 0.63);
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 0px;
+    min-height: 45px;
+    margin-bottom: 5px;
+    --background: var(--ion-color-primary, #2b4c79);
+    --color: white;
+    --inner-padding-end: 0px;
+    --padding-start: 0px;
+}
+
+/*#schedulerDivider {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    margin-top: 10px;
+}*/
+
+ion-card {
+    --background: rgba(255, 255, 255, 0.8);
+    margin: 12px 8px;
+    padding-bottom: 10px;
+    //height: calc(100% - 24px);
+    //padding: 5px;
+}
+
+ion-button {
+    --box-shadow: -1px 4px 2px -1px #2f2f2f;
+}

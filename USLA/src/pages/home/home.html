@@ -1,0 +1,94 @@
+<ion-header>
+  <ion-navbar>
+    
+    <ion-title>Home</ion-title>
+
+    <ion-buttons start>
+        <button ion-button icon-only (click)="openSettings()">
+          <ion-icon name="settings"></ion-icon>
+        </button>
+      </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="no-scroll">
+  <div class="logoDiv">
+    <img src="assets/imgs/homeLogo.jpg" />
+  </div>
+
+  <ion-grid class="btnGrid">
+    <ion-row>
+      <ion-col col-4>
+        <button ion-button [navPush]="schedulePage">
+          <div>
+            <ion-icon name="calendar"></ion-icon>
+          </div>
+          
+          <div>
+            Schedule
+          </div>
+        </button>
+      </ion-col>
+      <ion-col col-4>
+        <button ion-button [navPush]="sponsorsPage">
+          <div>
+            <ion-icon name="help-buoy"></ion-icon>
+          </div>
+
+          <div>
+            Sponsors
+          </div>
+        </button>
+      </ion-col>
+      <ion-col col-4>
+        <button ion-button [navPush]="aboutPage">
+          <div>
+            <ion-icon name="information-circle"></ion-icon>
+          </div>
+          <div>
+            About
+          </div>
+          
+        </button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-4>
+        <button ion-button [navPush]="programPage">
+          <div>
+            <ion-icon name="list-box"></ion-icon>
+          </div>
+          
+          <div>
+            Program
+          </div>
+          
+        </button>
+      </ion-col>
+      <ion-col col-4>
+        <button ion-button [navPush]="partyPage">
+          <div>
+            <ion-icon name="beer"></ion-icon>
+          </div>
+          
+          <div>
+            Festivities
+          </div>
+          
+        </button>
+      </ion-col>
+      <ion-col col-4>
+        <button ion-button [navPush]="mapPage">
+          <div>
+            <ion-icon name="map"></ion-icon>
+          </div>
+          
+          <div>
+              Map
+          </div>
+          
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

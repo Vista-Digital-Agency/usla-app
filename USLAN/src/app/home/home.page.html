@@ -1,0 +1,112 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="no-scroll">
+  
+  <div id="homeCon">
+    <ion-grid id="outerGrid">
+      <ion-row id="homeImgRow">
+        <ion-col>
+          <img src="assets/imgs/homeLogo.jpg" />
+        </ion-col>
+      </ion-row>
+      <ion-row id="homeBtnsRow" align-items-center>
+        <ion-col>
+          <ion-grid id="btnGrid">
+            <ion-row align-items-end>
+              <ion-col>
+                <ion-button color="secondary" expand="block" strong [routerLink]="['/schedule']">
+                  <ion-ripple-effect></ion-ripple-effect>
+                  <div>
+                    <div>
+                      <ion-icon name="list"></ion-icon>
+                    </div>
+                    <div>
+                      Schedule
+                    </div>
+                  </div>
+                </ion-button>
+              </ion-col>
+              <ion-col>
+                <ion-button color="secondary" expand="block" strong [routerLink]="['/result-types']">
+                  <ion-ripple-effect></ion-ripple-effect>
+                  <div>
+                    <div>
+                      <ion-icon name="trophy"></ion-icon>
+                    </div>
+                    <div>
+                        Results
+                    </div>
+                  </div>
+                </ion-button>
+              </ion-col>
+              <ion-col>
+                <ion-button color="secondary" expand="block" strong [routerLink]="['/program']">
+                  <ion-ripple-effect></ion-ripple-effect>
+                  <div>
+                    <div>
+                      <ion-icon name="paper"></ion-icon>
+                    </div>
+                    <div>
+                      Program
+                    </div>
+                  </div>
+                </ion-button>
+              </ion-col>
+            </ion-row>
+            <ion-row align-items-center>
+              <ion-col>
+                <ion-button color="secondary" expand="block" strong [routerLink]="['/sponsors']">
+                  <ion-ripple-effect></ion-ripple-effect>
+                  <div>
+                    <div>
+                      <ion-icon name="help-buoy"></ion-icon>
+                    </div>
+                    <div>
+                      Sponsors
+                    </div>
+                  </div>
+                </ion-button>
+              </ion-col>
+              <ion-col>
+                <ion-button color="secondary" expand="block" strong [routerLink]="['/party']">
+                  <ion-ripple-effect></ion-ripple-effect>
+                  <div>
+                    <div>
+                      <ion-icon name="glasses"></ion-icon>
+                    </div>
+                    <div>
+                      Festivities
+                    </div>
+                  </div>
+                </ion-button>
+              </ion-col>
+              <ion-col>
+                <ion-button color="secondary" expand="block" strong [routerLink]="['/map']">
+                  <ion-ripple-effect></ion-ripple-effect>
+                  <div>
+                    <div>
+                      <ion-icon name="map"></ion-icon>
+                    </div>
+                    <div>
+                      Map
+                    </div>
+                  </div>
+                </ion-button>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+</ion-content>

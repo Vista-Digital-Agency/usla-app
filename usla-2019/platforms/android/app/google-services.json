@@ -1,0 +1,243 @@
+{
+  "project_info": {
+    "project_number": "981996647565",
+    "firebase_url": "https://api-project-981996647565.firebaseio.com",
+    "project_id": "api-project-981996647565",
+    "storage_bucket": "api-project-981996647565.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981996647565:android:686a8d176013a1f1",
+        "android_client_info": {
+          "package_name": "com.dbapp.vista"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981996647565-j2s0t8erqs01rb5p0gsudqag9kuifn0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYUGtfSapg6jesp84azSnRb0LGX7diEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981996647565-j2s0t8erqs01rb5p0gsudqag9kuifn0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981996647565:android:adeab92ea546fc43",
+        "android_client_info": {
+          "package_name": "com.ionicframework.gowapp688960"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981996647565-j2s0t8erqs01rb5p0gsudqag9kuifn0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYUGtfSapg6jesp84azSnRb0LGX7diEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981996647565-j2s0t8erqs01rb5p0gsudqag9kuifn0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981996647565:android:dbb7f47c7a34e1ca",
+        "android_client_info": {
+          "package_name": "com.ionicframework.highcountry481830"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981996647565-j2s0t8erqs01rb5p0gsudqag9kuifn0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYUGtfSapg6jesp84azSnRb0LGX7diEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981996647565-j2s0t8erqs01rb5p0gsudqag9kuifn0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981996647565:android:8db0d876662a5a6d",
+        "android_client_info": {
+          "package_name": "com.lakeanna.vista"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981996647565-j2s0t8erqs01rb5p0gsudqag9kuifn0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYUGtfSapg6jesp84azSnRb0LGX7diEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981996647565-j2s0t8erqs01rb5p0gsudqag9kuifn0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981996647565:android:483157a8870a570d",
+        "android_client_info": {
+          "package_name": "com.oceancityguide.vista"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981996647565-j2s0t8erqs01rb5p0gsudqag9kuifn0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYUGtfSapg6jesp84azSnRb0LGX7diEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981996647565-j2s0t8erqs01rb5p0gsudqag9kuifn0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981996647565:android:4545ac9fe321e92b",
+        "android_client_info": {
+          "package_name": "com.tennesseesmokiesgoguide.vista"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981996647565-j2s0t8erqs01rb5p0gsudqag9kuifn0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYUGtfSapg6jesp84azSnRb0LGX7diEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981996647565-j2s0t8erqs01rb5p0gsudqag9kuifn0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981996647565:android:de85bf47ad15ad32",
+        "android_client_info": {
+          "package_name": "com.uslanationals.vista"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981996647565-j2s0t8erqs01rb5p0gsudqag9kuifn0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYUGtfSapg6jesp84azSnRb0LGX7diEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981996647565-j2s0t8erqs01rb5p0gsudqag9kuifn0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981996647565:android:d48978842bd15825",
+        "android_client_info": {
+          "package_name": "com.virginiabeachgoguide.vista"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981996647565-j2s0t8erqs01rb5p0gsudqag9kuifn0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYUGtfSapg6jesp84azSnRb0LGX7diEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981996647565-j2s0t8erqs01rb5p0gsudqag9kuifn0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

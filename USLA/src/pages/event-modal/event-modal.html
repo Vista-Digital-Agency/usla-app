@@ -1,0 +1,77 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="onClose()">
+        <ion-icon name="close"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <div class="eventWrapper">
+    <ion-grid id="topGrid">
+      <ion-row class="eventTitleRow">
+        <ion-col class="eventTitleCol">
+          <h2 class="eventTitle">{{ event.name }}</h2>
+        </ion-col>
+      </ion-row>
+      <ion-row class="eventAddressRow">
+        <ion-col class="eventAddressCol">
+          <div class="eventAddress">
+            {{ event.address }}
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row class="eventDateRow">
+        <ion-col class="eventDateCol">
+          <div class="eventDate">
+              {{ event.dateTime | date: 'mediumDate' }}
+          </div>
+          <div class="eventTime">
+              {{ event.time }}
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <div class="eventInfo" *ngIf="event.info != ''">
+      {{ event.info }}
+    </div>
+
+    <ion-grid id="bottomGrid">
+      <!-- <ion-row *ngIf="event.info != ''" class="eventInfoRow">
+        <ion-col class="eventInfoCol">
+          
+        </ion-col>
+      </ion-row> -->
+      <ion-row class="addToBtnRow" *ngIf="event.url != ''">
+        <ion-col class="addToBtnCol" text-center align-self-center>
+          <button class="addToBtn" ion-button round icon-left (click)="website(event.url)">
+            <ion-icon name="globe"></ion-icon>
+            <div>Website</div>
+          </button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="addToBtnCol" text-center align-self-center>
+          <button class="addToBtn" ion-button round icon-left (click)="directions(event.location)">
+            <ion-icon name="car"></ion-icon>
+            <div>Directions</div>
+          </button>
+        </ion-col>
+      </ion-row>
+      <ion-row class="addToBtnRow">
+        <ion-col class="addToBtnCol" text-center align-self-center>
+          <button class="addToBtn" ion-button round icon-left (click)="addOption()">
+            <ion-icon name="add-circle"></ion-icon>
+            <div>Add to Calendar</div>
+          </button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

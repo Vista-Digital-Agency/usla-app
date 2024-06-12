@@ -1,0 +1,98 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "pushwoosh-cordova-plugin",
+        "scope": null,
+        "escapedName": "pushwoosh-cordova-plugin",
+        "name": "pushwoosh-cordova-plugin",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/clew/Desktop/USLA"
+    ]
+  ],
+  "_from": "pushwoosh-cordova-plugin@latest",
+  "_id": "pushwoosh-cordova-plugin@7.8.6",
+  "_inCache": true,
+  "_location": "/pushwoosh-cordova-plugin",
+  "_nodeVersion": "8.9.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/pushwoosh-cordova-plugin_7.8.6_1532437548760_0.008512592138367525"
+  },
+  "_npmUser": {
+    "name": "pushwoosh-max",
+    "email": "max@pushwoosh.com"
+  },
+  "_npmVersion": "5.7.1",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "pushwoosh-cordova-plugin",
+    "scope": null,
+    "escapedName": "pushwoosh-cordova-plugin",
+    "name": "pushwoosh-cordova-plugin",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/pushwoosh-cordova-plugin/-/pushwoosh-cordova-plugin-7.8.6.tgz",
+  "_shasum": "2c64570a1e472accec056305b3f0d389682b6b0a",
+  "_shrinkwrap": null,
+  "_spec": "pushwoosh-cordova-plugin",
+  "_where": "/Users/clew/Desktop/USLA",
+  "author": {
+    "name": "Pushwoosh"
+  },
+  "bugs": {
+    "url": "https://github.com/Pushwoosh/pushwoosh-phonegap-3.0-plugin/issues"
+  },
+  "cordova": {
+    "id": "pushwoosh-cordova-plugin",
+    "platforms": [
+      "android",
+      "ios",
+      "wp8"
+    ]
+  },
+  "dependencies": {},
+  "description": "\n    This plugin allows you to send and receive push notifications. Powered by Pushwoosh (www.pushwoosh.com).\n    ",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-IBPfFaCE+M8FQk1UFH503B7Ps2S0PP9HjvKCvVl4NQpSeOwHVjfuB1uD/qUgQVE8xLc8y+xfg2rxUQpetsnjXg==",
+    "shasum": "2c64570a1e472accec056305b3f0d389682b6b0a",
+    "tarball": "https://registry.npmjs.org/pushwoosh-cordova-plugin/-/pushwoosh-cordova-plugin-7.8.6.tgz",
+    "fileCount": 55,
+    "unpackedSize": 18364381,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbVyQtCRA9TVsSAnZWagAA7P4P/3HHZ/qhxbbl/QNOndR6\nGkntmiMnh5d8nF3EOoCmIT1ZR3jShB0/Zl5Sgzw/DO0oBAW+roJ4Mvc+ro7b\nEL87DURJUsu+MHWQ1S2yM3mYrsbvEiPkJM/tQoVeHczet8KlYHdP8EfhO4OV\nGlIoNTXq6F1PBEnqy3I4ZTzz3uqhujEk3y2zune5tfMHJk6F6dbjQ8idYZjH\njQ85Pn5xx3AH9vMaGHDlZlAk7Z8LIq7xYxmdOHMFLIQrZjD6AvkV2BTYPhgc\ni/9TTIDlA1d0WZgFVA41O8HoXU9jNAawxRnPCkjl+9jpYyW//10de60JS7ys\nhU7btrOJI1VL0tS9HKcvQnqnw6WjUElnB/at9NkL4NVqdYjLCyHK8stoLL5u\nDailbnuwNS+/egZ2PnM1mNhZA+tQfqcm0AiM2hOl0z8p6XJKweWd4mnhCeAV\nIkjZH2gKHy0+aVn8Xno7o++fP6Le8r+zCAM89SVtkfNCfE68Ul21VKDhIQWF\nPnxINbfAdyu2CD+R3JZGDLWw2zciSQ9xFJpreeG0/BapmhcBqY3CUby3NHrz\n/EK15Fai4LMZLgeyxCjE6Mp7IKhP+u2TERi2Ke7KAX5X/r8mT4KejQzqd68w\nYV++SefI7jtoEWm5bNjAE6RjjPHiepCG2+1BAogtbdSRa7zAOqNxvKs2dCAE\ne9Wb\r\n=1+gl\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "03f75457930aa9fc45af08b174604cb1e8854426",
+  "homepage": "https://github.com/Pushwoosh/pushwoosh-phonegap-3.0-plugin#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-wp8"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "pushwoosh-max",
+      "email": "max@pushwoosh.com"
+    }
+  ],
+  "name": "pushwoosh-cordova-plugin",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pushwoosh/pushwoosh-phonegap-3.0-plugin.git"
+  },
+  "version": "7.8.6"
+}

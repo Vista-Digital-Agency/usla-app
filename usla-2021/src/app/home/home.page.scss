@@ -1,0 +1,183 @@
+@media only screen and (min-height: 750px) and (orientation: portrait) {
+    /*.scroll-content {
+        margin-bottom: calc(env(safe-area-inset-bottom) + 42px)!important;
+            -webkit-background-size: 100% calc(100% - 85px - env(safe-area-inset-bottom))!important;
+            -moz-background-size: 100% calc(100% - 85px - env(safe-area-inset-bottom))!important;
+            -o-background-size: 100% calc(100% - 85px - env(safe-area-inset-bottom))!important;
+            background-size: 100% calc(100% - 85px - env(safe-area-inset-bottom))!important;
+  
+    }*/
+  }
+  
+  @media only screen and (max-height: 575px) {
+    #sliderHome {
+        display: none;
+    }
+  
+    #homeImage, #homeImageCon {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-height: 400px) and (orientation: landscape) {
+    #homeBtnsCon {
+        bottom: none!important;
+    }
+  
+    #homeCon, #homeBtnsCon, #btnsGrid {
+        height: 100%!important;
+    }
+    
+    #btnsGrid > ion-row {
+        height: 33.3333%!important;
+    }
+  
+    #btnsGrid ion-icon {
+        font-size: 2em!important;
+    }
+  
+    .homeButton {
+        height: 100%!important;
+    }
+  
+    #btnsGrid ion-col > ion-row:last-of-type > ion-col {
+        font-size: 1.6rem;
+    }
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  
+  #homeGallery .col {
+    padding: 0px!important;
+  }
+  
+  #sliderHome {
+    padding: 0px!important;
+    border-bottom: 1px solid rgba(90, 90, 90, 0.658);
+    box-shadow: 0px 14px 10px -10px rgba(0,0,0,0.4);
+  }
+  
+  .headerRight {
+    text-align: right;
+  }
+  
+  .homeImage {
+    background-color: rgba(255, 255, 255, 0.85);
+    //padding: 10px 5px 5px 5px;
+    border-bottom: 2px solid rgba(104, 104, 104, 0.836);
+  }
+  
+  .scroll-content {
+    //background: url('../assets/imgs/homeBG.png') no-repeat fixed;
+    /* UNCOMMENT FOR iPHONE !!!! */
+    /*background-position: 0px calc(44px + env(safe-area-inset-top));
+    -webkit-background-size: 100% calc(100% - calc(env(safe-area-inset-bottom) + 44px + env(safe-area-inset-top)));
+    -moz-background-size: 100% calc(100% - calc(env(safe-area-inset-bottom) + 44px + env(safe-area-inset-top)));
+    -o-background-size: 100% calc(100% - calc(env(safe-area-inset-bottom) + 44px + env(safe-area-inset-top)));
+    background-size: 100% calc(100% - calc(env(safe-area-inset-bottom) + 44px + env(safe-area-inset-top)));*/
+    /*background-position: 0px 0px;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;*/
+  }
+  
+  #homeCon {
+    background-color: #24608a;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #homeImageCon {
+    background-color: white;
+    //padding: 20px;
+    //padding: 10px;
+    border-bottom: 2px inset rgba(0, 0, 0, 0.7);
+  }
+  
+  #homeImage {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #homeBtnsCon {
+    width: 100%;
+    position: absolute;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 15px;
+    bottom: 0px;
+    //background-color: rgba(255, 255, 255, 0.2);
+    //background-color: rgba(255, 255, 255, 0.85);
+    //background-color: #24608a;
+    //border-top: 1px outset rgba(0, 0, 0, 0.7);
+  
+  }
+  
+  #btnsGrid {
+    //background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    padding: 0px!important;
+    //border: 1px solid rgb(228, 228, 228);
+    border-radius: 2px;
+  }
+  
+  #btnsGrid ion-icon {
+    color: rgb(252, 252, 252);
+    font-size: 2.8em;
+    display: block;
+    margin: 2px auto;
+  }
+  
+  .homeButton.activated {
+    opacity: 0.7;
+  }
+  
+  .homeButton {
+    height: 5.5em;
+    width: 90%; 
+    margin: 0px; 
+    padding: 0px;
+    font-weight: bold;
+  }
+  
+  #btnsGrid ion-button {
+    --border-width: 2px;
+    --border-style: solid;
+    --border-color: rgba(202, 0, 0, 0.9);
+    --box-shadow: -2px 11px 3px -3px rgba(0, 0, 0, 0.35);
+  }
+  
+  .homeButton ion-label {
+    font-size: 18px;
+  }
+  
+  #btnsGrid > ion-row > ion-col {
+    //border: 1px solid rgba(245, 245, 245, 0.89);
+    padding: 0px;
+    text-align: center;
+    
+  }
+  
+  #btnsGrid ion-row > ion-col {
+    padding: 2px;
+  }
+  
+  #btnsGrid ion-row:first-of-type {
+    margin-bottom: 20px;
+    //padding-top: 5px;
+  }
+  
+  #btnsGrid ion-row:last-of-type {
+    //padding-bottom: 5px;
+  }
+  
+  #btnsGrid ion-row > ion-col {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: bold;
+    font-size: 1.6rem;
+  }

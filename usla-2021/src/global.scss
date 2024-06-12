@@ -1,0 +1,101 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+:root {
+    --ion-toolbar-color: white;
+    --ion-toolbar-background: #b10229;
+    --ion-toolbar-border-color: white;
+
+    --ion-background-color: #24608a;
+
+
+    ion-content.no-scroll {
+        --overflow: hidden;
+    }
+
+    ion-content {
+        --background-color: #24608a;
+        --background: #24608a;
+    }
+
+    ion-back-button {
+        --color: white;
+        --icon-font-size: 1.5rem;
+        --icon-font-weight: bold;
+        --icon-padding-end: 4px;
+        font-weight: bold;
+    }
+
+    ion-menu-button {
+        --color: white;
+    }
+
+    ion-menu {
+        --ion-toolbar-border-color: white;
+        ion-content {
+        background-color: rgba(204, 0, 47, 0.25);
+        --background: none;
+        }
+        --ion-item-background-activated: #3d6196;
+      
+        ion-item {
+          --ion-background-color: #2e5ca0;
+          
+          --inner-border-width: 0px;
+          --color: white;
+          border-bottom: 1px solid rgb(255, 255, 255);
+      
+          --detail-icon-color: white;
+          --detail-icon-opacity: 0;
+    
+          --min-height: 60px;
+      
+          //--padding-bottom: 5px;
+          //--padding-top: 5px;
+      
+          ion-icon {
+            margin-bottom: 4px;
+          }
+      
+          ion-label {
+            margin-bottom: 0px;
+            margin-top: 4px;
+            font-weight: bold;
+          }
+        }
+    }
+}
+
+#map .gm-ui-hover-effect:focus-visible {
+    outline: none!important;
+}
+
+@media only screen and (min-height: 750px) and (orientation: portrait) {
+    .scroll-content {
+        margin-bottom: env(safe-area-inset-bottom)!important;
+    }
+} 

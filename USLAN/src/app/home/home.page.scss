@@ -1,0 +1,60 @@
+#homeCon {
+  height: 100%;
+}
+
+#outerGrid {
+  height: 100%;
+  padding: 0px;
+}
+
+#outerGrid > ion-row {
+  height: calc(100% / 2);
+  padding: 0px;
+}
+
+#outerGrid > ion-row > ion-col {
+  padding: 0px;
+}
+
+#btnGrid > ion-row {
+  height: calc(100% / 2);
+}
+
+#homeBtnsRow > ion-col, #homeBtnsRow > ion-col, #btnGrid {
+  height: 100%;
+}
+
+#homeBtnsRow > ion-col {
+  max-width: 450px;
+  margin: 0px auto;
+}
+
+#homeImgRow > ion-col > img {
+  max-height: 100%;
+}
+
+#homeImgRow > ion-col {
+  display: inline-flex;
+}
+
+ion-col {
+  max-height: 100%;
+  text-align: center;
+}
+
+ion-button {
+  /*--background: var(--ion-color-secondary);
+  --background-activated: var(--ion-color-secondary-tint);*/
+  height: 4.2em;
+  
+  --box-shadow: -3px 5px 2px -1px #2f2f2f;
+}
+
+ion-icon {
+  padding-bottom: 3px;
+  font-size: 1.5rem;
+}
+
+ion-ripple-effect {
+  color: rgb(0, 0, 0);
+}

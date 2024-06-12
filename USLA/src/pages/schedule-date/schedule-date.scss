@@ -1,0 +1,57 @@
+page-schedule-date {
+    .scroll-content {
+        background-color: #EED6AF;
+    }
+
+    .events {
+        margin-bottom: 10px;
+        text-align: center;
+        padding-left: 0px;
+        background-color: #ca002d;
+        border-radius: 5px;
+        min-height: 150px;
+    }
+//rgba(248, 248, 255, 0.849);
+    ion-label {
+        margin: 11px 8px!important;
+    }
+
+    .blankSpace {
+        margin-bottom: 5px;
+    }
+
+    .eventTitle {
+        color: white;
+        font-size: 2rem;
+        white-space: normal;
+        font-weight: bold;
+        //text-decoration: underline;
+        margin-bottom: 15px;
+        //padding-bottom: 5px;
+        //border-bottom: 0.55px solid rgba(245, 245, 245, 0.95);
+    }
+
+    .eventDate {
+        //font-weight: bold;
+        color: white;
+        white-space: normal;
+        font-style: italic; 
+    }
+
+    .events .item-inner {
+        padding: 5px 0px;
+        border: 2px solid #d03c3c!important;
+        //border-top: 1px solid whitesmoke!important;
+        //border-bottom: 1px solid whitesmoke!important;
+    }
+
+    .eventsCon {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-top: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-top: 2px solid rgba(255, 255, 255, 0.596);
+        border-bottom: 2px solid rgba(255, 255, 255, 0.596);
+    }
+}

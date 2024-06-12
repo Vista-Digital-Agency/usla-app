@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Program</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+      <div class="pdfDownload">
+        <ion-button color="danger" (click)="openPdf('https://vistagraphics-my.sharepoint.com/:b:/g/personal/caleb_vgnet_com/EbI0PZlds6dNrJ_K917qA4gBrf3RfzZJ-siKk6SuoY5Xjw?e=mSW4ef')">
+          <ion-icon slot="start" name="document"></ion-icon>
+          Download Full PDF
+        </ion-button>
+      </div>
+      <div>
+          <ion-card *ngFor="let item of events; let j = index" (click)="expandItem(items[j])"> 
+            <ion-card-content>
+              <ion-row align-items-center>
+                  <ion-col size="3">
+                    <div>
+                        <ion-icon name="add-circle-outline" *ngIf="items[j].expanded == false"></ion-icon>
+                        <ion-icon name="remove-circle" *ngIf="items[j].expanded == true"></ion-icon>
+                    </div>
+                  </ion-col> 
+                  <ion-col size="9">
+                      <h3>
+                          {{ item.name }}
+                      </h3>
+                  </ion-col>
+                </ion-row>
+                <app-expandables expandHeight="900px" [expanded]="items[j].expanded">
+                    <div class="accordCon">
+                        <img [src]="item.image" />
+                        <div>{{ item.description }}</div>
+                        <div style="text-align: center; margin-top: 15px;" *ngIf="item.results != ''">
+                          <ion-button class="addToBtn" round icon-left (click)="website(item.results)">
+                            <ion-icon name="globe"></ion-icon>
+                            <div>Results</div>
+                          </ion-button>
+                        </div>
+                    </div>
+                 </app-expandables>
+              </ion-card-content>
+            </ion-card>
+          </div>
+</ion-content>

@@ -1,0 +1,39 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>My Schedule</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div *ngIf="itinerary.length < 1" class="schedMessage">
+    <h3>You currently do not have any events added to your schedule</h3>
+  </div>
+
+  <div class="eventsCon">
+    <div class="events" ion-item *ngFor="let item of itinerary | dateSorter: 'date'">
+      <div class="eventTitle">{{ item.name }}</div>
+
+      <div class="eventDate">
+          {{ item.date | date: 'mediumDate' }} 
+          <br>
+          {{ item.time }}
+      </div>
+
+      <div ion-row class="mySchedBtnCon">
+        <div ion-col col-6  >
+          <button ion-button color="sGreen" (click)="removeEvent(item)">
+            Remove Event
+          </button>
+        </div>
+        <div ion-col col-6>
+            <button ion-button color="sGreen" (click)="eventClicked(item)">
+              Open Event
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "USLAN",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

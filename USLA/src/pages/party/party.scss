@@ -1,0 +1,29 @@
+page-party {
+    .festWrapper {
+        border: 1px solid whitesmoke;
+        padding: 20px;
+    }
+
+    .festCon {
+        margin-bottom: 50px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(182, 182, 182);
+    }
+
+    .festTitle {
+        text-align: center;
+        background-color: whitesmoke;
+        //border-bottom: 2px solid rgb(128, 128, 128);
+    }
+
+    .festContent {
+        text-align: left;
+        margin: 20px 0px;
+        line-height: 1.5;
+        font-size: 1.5rem;
+    }
+
+    .buttonWrap {
+        text-align: center;
+    }
+}

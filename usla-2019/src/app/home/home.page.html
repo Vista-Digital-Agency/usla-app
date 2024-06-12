@@ -1,0 +1,78 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+    <div slot="end" class="headLogoCon"><img class="headerLogo" src="assets/logo.png" /></div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="no-scroll">
+  <div id="homeCon">
+    <div id="homeImageCon">
+      <img id="homeImage" src="assets/homeImage.png" />
+    </div>
+    
+
+    <div id="homeBtnsCon"> 
+      <ion-grid id="btnsGrid">
+            <ion-row>
+              <ion-col size="4">
+                <ion-button class="homeButton" color="danger" [routerDirection]="'forward'" routerLink="/schedule">
+                  <div>
+                    <ion-icon name="calendar"></ion-icon>
+                    <ion-label style="font-weight: bold;">Schedule</ion-label>
+                  </div>
+                </ion-button>
+              </ion-col>
+              <ion-col size="4">
+                <ion-button class="homeButton" color="danger" [routerDirection]="'forward'" routerLink="/map">
+                  <div>
+                    <ion-icon name="map"></ion-icon>
+                    <ion-label style="font-weight: bold;">Map</ion-label>
+                  </div>
+                </ion-button>
+              </ion-col>
+              
+              <ion-col size="4">
+                <ion-button class="homeButton" color="danger" [routerDirection]="'forward'" routerLink="/result-types">
+                  <div>
+                    <ion-icon name="trophy"></ion-icon>
+                    <ion-label style="font-weight: bold;">Results</ion-label>
+                  </div>
+                </ion-button>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="4">
+                <ion-button class="homeButton" color="danger" [routerDirection]="'forward'" routerLink="/program">
+                  <div>
+                    <ion-icon name="list"></ion-icon>
+                    <ion-label style="font-weight: bold;">Program</ion-label>
+                  </div>
+                </ion-button>
+              </ion-col>
+              <ion-col size="4">
+                <ion-button class="homeButton" color="danger" [routerDirection]="'forward'" routerLink="/sponsors">
+                  <div>
+                    <ion-icon name="help-buoy"></ion-icon>
+                    <ion-label style="font-weight: bold;">Sponsors</ion-label>
+                  </div>
+                </ion-button>
+              </ion-col>
+              <ion-col size="4">
+                <ion-button class="homeButton" color="danger" [routerDirection]="'forward'" routerLink="/about">
+                  <div>
+                    <ion-icon name="information-circle"></ion-icon>
+                    <ion-label style="font-weight: bold;">About</ion-label>
+                  </div>
+                </ion-button>
+              </ion-col>
+            </ion-row>
+        </ion-grid>
+    </div>
+   </div>
+</ion-content>

@@ -1,0 +1,25 @@
+<ion-header>
+  
+    <ion-navbar>
+      <ion-buttons end>
+        <button ion-button icon-only (click)="onClose()">
+          <ion-icon name="close"></ion-icon>
+        </button>
+      </ion-buttons>
+      <ion-title>Settings</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding>
+  
+    <ion-item class="push">
+      <ion-label>Push Notifications</ion-label>
+      <ion-toggle [checked]="pushEnabled" (ionChange)="pushChange()"></ion-toggle>
+    </ion-item>
+  
+  
+  
+  </ion-content>
+  

@@ -1,0 +1,48 @@
+<ion-app>
+    <ion-menu type="overlay">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-grid id="sideMenuGrid">
+          <ion-row>
+            <ion-list>
+              <ion-menu-toggle auto-hide="true">
+                <ion-item [routerDirection]="'root'" routerLink="/home">
+                  <ion-icon color="light" slot="start" name="home"></ion-icon>
+                  <ion-label>
+                    Home
+                  </ion-label>
+                </ion-item>
+              </ion-menu-toggle>
+    
+             <!-- <ion-menu-toggle auto-hide="true">
+                <ion-item [routerDirection]="'root'" routerLink="/settings">
+                  <ion-icon color="light" slot="start" name="settings"></ion-icon>
+                  <ion-label>
+                    Settings
+                  </ion-label>
+                </ion-item>
+              </ion-menu-toggle>-->
+    
+              <ion-menu-toggle auto-hide="true">
+                <ion-item (click)="openPrivacy()">
+                  <ion-icon color="light" slot="start" name="lock"></ion-icon>
+                  <ion-label>
+                    Privacy Policy
+                  </ion-label>
+                </ion-item>
+              </ion-menu-toggle>
+            </ion-list>
+          </ion-row>
+          <ion-row align-items-stretch style="background-color:beige;">
+
+          </ion-row>
+        </ion-grid>
+        
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet main></ion-router-outlet>
+</ion-app>

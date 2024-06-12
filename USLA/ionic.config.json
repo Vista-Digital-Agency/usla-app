@@ -1,0 +1,7 @@
+{
+  "name": "USLA",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

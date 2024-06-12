@@ -1,0 +1,251 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"Calendar\"><param name=\"android-package\" value=\"nl.xservices.plugins.Calendar\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Geolocation\"><param name=\"android-package\" value=\"org.apache.cordova.geolocation.Geolocation\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"PushNotification\"><param name=\"android-package\" onload=\"true\" value=\"com.pushwoosh.plugin.pushnotifications.PushNotifications\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"SplashScreen\"><param name=\"android-package\" value=\"org.apache.cordova.splashscreen.SplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "AndroidManifest.xml": {
+        "parents": {
+          "/manifest": [
+            {
+              "xml": "<uses-permission android:name=\"android.permission.READ_CALENDAR\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.WRITE_CALENDAR\" />",
+              "count": 1
+            }
+          ],
+          "/*": [
+            {
+              "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
+              "count": 1
+            },
+            {
+              "xml": "<uses-feature android:name=\"android.hardware.location.gps\" />",
+              "count": 1
+            }
+          ],
+          "/manifest/application": [
+            {
+              "xml": "<meta-data android:name=\"com.pushwoosh.log_level\" android:value=\"DEBUG\" />",
+              "count": 1
+            },
+            {
+              "xml": "<meta-data android:name=\"com.pushwoosh.foreground_push\" android:value=\"false\" />",
+              "count": 1
+            },
+            {
+              "xml": "<meta-data android:name=\"com.pushwoosh.notification_service_extension\" android:value=\"com.pushwoosh.plugin.pushnotifications.PushwooshNotificationServiceExtension\" />",
+              "count": 1
+            },
+            {
+              "xml": "<meta-data android:name=\"com.pushwoosh.internal.plugin_provider\" android:value=\"com.pushwoosh.plugin.internal.PhonegapPluginProvider\" />",
+              "count": 1
+            },
+            {
+              "xml": "<service android:enabled=\"true\" android:exported=\"true\" android:isolatedProcess=\"false\" android:label=\"iBeacon\" android:name=\"com.pushwoosh.thirdparty.radiusnetworks.ibeacon.service.IBeaconService\" />",
+              "count": 1
+            },
+            {
+              "xml": "<service android:enabled=\"true\" android:name=\"com.pushwoosh.thirdparty.radiusnetworks.ibeacon.IBeaconIntentProcessor\" />",
+              "count": 1
+            },
+            {
+              "xml": "<service android:name=\"com.pushwoosh.beacon.PushBeaconService\" />",
+              "count": 1
+            },
+            {
+              "xml": "<meta-data android:name=\"com.pushwoosh.plugin.location\" android:value=\"com.pushwoosh.location.LocationPlugin\" />",
+              "count": 1
+            },
+            {
+              "xml": "<service android:name=\"com.pushwoosh.location.network.GeoLocationServiceApi16\" />",
+              "count": 1
+            },
+            {
+              "xml": "<activity android:name=\"com.pushwoosh.location.internal.utils.ResolutionActivity\" android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" />",
+              "count": 1
+            },
+            {
+              "xml": "<service android:exported=\"true\" android:name=\"com.pushwoosh.location.network.GeoLocationServiceApi21\" android:permission=\"android.permission.BIND_JOB_SERVICE\" />",
+              "count": 1
+            },
+            {
+              "xml": "<receiver android:name=\"com.pushwoosh.location.geofencer.GeofenceReceiver\"><intent-filter><action android:name=\"com.uslanationals.vista.action.GEOFENCE\" /></intent-filter></receiver>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "undefined": {
+        "parents": {
+          "undefined": [
+            {
+              "xml": "<access origin=\"*.pushwoosh.com\" />",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"Keyboard\"><param name=\"android-package\" onload=\"true\" value=\"io.ionic.keyboard.IonicKeyboard\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-calendar": {
+      "PACKAGE_NAME": "com.uslanationals.vista"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.uslanationals.vista"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.uslanationals.vista"
+    },
+    "pushwoosh-cordova-plugin": {
+      "LOG_LEVEL": "DEBUG",
+      "IOS_FOREGROUND_ALERT_TYPE": "NONE",
+      "ANDROID_FOREGROUND_PUSH": "false",
+      "PACKAGE_NAME": "com.uslanationals.vista"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.uslanationals.vista"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.uslanationals.vista"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.uslanationals.vista"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "com.uslanationals.vista"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "com.uslanationals.vista"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "cordova-plugin-calendar.Calendar",
+      "file": "plugins/cordova-plugin-calendar/www/Calendar.js",
+      "pluginId": "cordova-plugin-calendar",
+      "clobbers": [
+        "Calendar"
+      ]
+    },
+    {
+      "id": "cordova-plugin-geolocation.geolocation",
+      "file": "plugins/cordova-plugin-geolocation/www/android/geolocation.js",
+      "pluginId": "cordova-plugin-geolocation",
+      "clobbers": [
+        "navigator.geolocation"
+      ]
+    },
+    {
+      "id": "cordova-plugin-geolocation.PositionError",
+      "file": "plugins/cordova-plugin-geolocation/www/PositionError.js",
+      "pluginId": "cordova-plugin-geolocation",
+      "runs": true
+    },
+    {
+      "id": "cordova-plugin-inappbrowser.inappbrowser",
+      "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+      "pluginId": "cordova-plugin-inappbrowser",
+      "clobbers": [
+        "cordova.InAppBrowser.open",
+        "window.open"
+      ]
+    },
+    {
+      "id": "pushwoosh-cordova-plugin.PushNotification",
+      "file": "plugins/pushwoosh-cordova-plugin/www/PushNotification.js",
+      "pluginId": "pushwoosh-cordova-plugin",
+      "clobbers": [
+        "plugins.pushNotification"
+      ]
+    },
+    {
+      "id": "cordova-plugin-device.device",
+      "file": "plugins/cordova-plugin-device/www/device.js",
+      "pluginId": "cordova-plugin-device",
+      "clobbers": [
+        "device"
+      ]
+    },
+    {
+      "id": "cordova-plugin-splashscreen.SplashScreen",
+      "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+      "pluginId": "cordova-plugin-splashscreen",
+      "clobbers": [
+        "navigator.splashscreen"
+      ]
+    },
+    {
+      "id": "cordova-plugin-ionic-keyboard.keyboard",
+      "file": "plugins/cordova-plugin-ionic-keyboard/www/android/keyboard.js",
+      "pluginId": "cordova-plugin-ionic-keyboard",
+      "clobbers": [
+        "window.Keyboard"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-calendar": "5.1.2",
+    "cordova-plugin-geolocation": "4.0.1",
+    "cordova-plugin-inappbrowser": "3.0.0",
+    "pushwoosh-cordova-plugin": "7.8.6",
+    "cordova-plugin-whitelist": "1.3.3",
+    "cordova-plugin-device": "2.0.2",
+    "cordova-plugin-splashscreen": "5.0.2",
+    "cordova-plugin-ionic-webview": "1.1.19",
+    "cordova-plugin-ionic-keyboard": "2.0.5"
+  }
+}

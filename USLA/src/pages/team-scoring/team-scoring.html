@@ -1,0 +1,226 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Team Results</ion-title>
+  </ion-navbar>
+  <ion-toolbar>
+    <ion-select [(ngModel)]="teamOption">
+      <ion-option value="aTeam">A Team Open & Age Group</ion-option>
+      <ion-option value="bTeam">B Team Open & Age Group</ion-option>
+      <ion-option value="openTeam">Open Team</ion-option>
+      <ion-option value="region">Open Region</ion-option>
+    </ion-select>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+    <div ion-fixed class="fixed-header">
+        <ion-row class="headerRow" *ngIf="teamOption != 'region'">
+          <ion-col col-3>
+            Place
+          </ion-col>
+          <ion-col col-2>
+            Type
+          </ion-col>
+          <ion-col col-3>
+            Total Reg
+          </ion-col>
+          <ion-col col-4>
+            Total
+          </ion-col>
+        </ion-row>
+        <ion-row class="headerRow" *ngIf="teamOption == 'region'">
+          <ion-col col-2>
+            Place
+          </ion-col>
+          <ion-col col-5>
+            Region
+          </ion-col>
+          <ion-col col-2>
+            Reg
+          </ion-col>
+          <ion-col col-3>
+            Total
+          </ion-col>
+        </ion-row>
+     </div>
+
+    <div [ngSwitch]="teamOption">
+        
+      <div *ngSwitchCase="'aTeam'">
+        <ion-grid class="outerGrid">
+          <!-- <ion-row class="headerRow">
+            <ion-col col-3>
+              Place
+            </ion-col>
+            <ion-col col-2>
+              Type
+            </ion-col>
+            <ion-col col-3>
+              Total Reg
+            </ion-col>
+            <ion-col col-4>
+              Total
+            </ion-col>
+          </ion-row> -->
+          <ion-row *ngFor="let item of aTeam" class="teamRow">
+            <ion-col>
+              <ion-card>
+                <ion-grid>
+                  <ion-row class="chapterRow">
+                    <ion-col col-12>
+                      {{ item.chapter}}
+                    </ion-col>
+                  </ion-row>
+                  <ion-row>
+                    <ion-col col-3>
+                      {{ item.rank }}
+                    </ion-col>
+                    <ion-col col-2>
+                      {{ item.chapterType }}
+                    </ion-col>
+                    <ion-col col-3>
+                      {{ item.totalReg }}
+                    </ion-col>
+                    <ion-col col-4>
+                      {{ item.points.toFixed(3) }}
+                    </ion-col>
+                  </ion-row>
+                </ion-grid>
+              </ion-card>
+            </ion-col>
+          </ion-row>
+                  
+        </ion-grid>
+      </div>
+      <div *ngSwitchCase="'bTeam'">
+        <ion-grid class="outerGrid">
+          <!-- <ion-row class="headerRow">
+            <ion-col col-3>
+              Place
+            </ion-col>
+            <ion-col col-2>
+              Type
+            </ion-col>
+            <ion-col col-3>
+              Total Reg
+            </ion-col>
+            <ion-col col-4>
+              Total
+            </ion-col>
+          </ion-row> -->
+          <ion-row *ngFor="let item of bTeam" class="teamRow">
+            <ion-col>
+              <ion-card>
+                <ion-grid>
+                  <ion-row class="chapterRow">
+                    <ion-col col-12>
+                      {{ item.chapter}}
+                    </ion-col>
+                  </ion-row>
+                  <ion-row>
+                    <ion-col col-3>
+                      {{ item.rank }}
+                    </ion-col>
+                    <ion-col col-2>
+                      {{ item.chapterType }}
+                    </ion-col>
+                    <ion-col col-3>
+                      {{ item.totalReg }}
+                    </ion-col>
+                    <ion-col col-4>
+                      {{ item.points.toFixed(3) }}
+                    </ion-col>
+                  </ion-row>
+                </ion-grid>
+              </ion-card>
+            </ion-col>
+          </ion-row>
+                  
+        </ion-grid>
+      </div>
+      <div *ngSwitchCase="'openTeam'">
+        <ion-grid class="outerGrid">
+          <!-- <ion-row class="headerRow">
+            <ion-col col-3>
+              Place
+            </ion-col>
+            <ion-col col-2>
+              Type
+            </ion-col>
+            <ion-col col-3>
+              Total Reg
+            </ion-col>
+            <ion-col col-4>
+              Total
+            </ion-col>
+          </ion-row> -->
+          <ion-row *ngFor="let item of openTeam" class="teamRow">
+            <ion-col>
+              <ion-card>
+                <ion-grid>
+                  <ion-row class="chapterRow">
+                    <ion-col col-12>
+                      {{ item.chapter}}
+                    </ion-col>
+                  </ion-row>
+                  <ion-row>
+                    <ion-col col-3>
+                      {{ item.rank }}
+                    </ion-col>
+                    <ion-col col-2>
+                      {{ item.chapterType }}
+                    </ion-col>
+                    <ion-col col-3>
+                      {{ item.totalReg }}
+                    </ion-col>
+                    <ion-col col-4>
+                      {{ item.points.toFixed(3) }}
+                    </ion-col>
+                  </ion-row>
+                </ion-grid>
+              </ion-card>
+            </ion-col>
+          </ion-row>
+                  
+        </ion-grid>
+      </div>
+      <div *ngSwitchCase="'region'">
+        <ion-grid class="outerGrid">
+          <!-- <ion-row class="headerRow">
+            <ion-col col-2>
+              Place
+            </ion-col>
+            <ion-col col-5>
+              Region
+            </ion-col>
+            <ion-col col-2>
+              Total Reg
+            </ion-col>
+            <ion-col col-3>
+              Total
+            </ion-col>
+          </ion-row> -->
+          <ion-row *ngFor="let item of region">
+
+            <ion-col col-2>
+              {{ item.rank }}
+            </ion-col>
+            <ion-col col-5>
+              {{ item.region }}
+            </ion-col>
+            <ion-col col-2>
+              {{ item.totalReg }}
+            </ion-col>
+            <ion-col col-3>
+              {{ item.points.toFixed(3) }}
+            </ion-col>
+          </ion-row>
+                  
+        </ion-grid>
+      </div>
+    
+    </div>
+
+</ion-content>

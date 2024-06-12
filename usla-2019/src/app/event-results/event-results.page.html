@@ -1,0 +1,50 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="result-types"></ion-back-button>
+      </ion-buttons>
+      <ion-title>Event Results</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content padding>
+    <div>
+      <ion-list>
+        <ion-item>
+          <ion-label>Events</ion-label>
+          <ion-select [(ngModel)]="selectedEvent" (ionChange)="selectEvent()">
+            <ion-select-option *ngFor="let item of events" [value]="item">{{ item }}</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+    </div>
+  
+    <div *ngIf="showGenderDD">
+      <ion-list>
+        <ion-item>
+          <ion-label>Gender</ion-label>
+          <ion-select [(ngModel)]="selectedGender" (ionChange)="selectGender()">
+            <ion-select-option value="M">Male</ion-select-option>
+            <ion-select-option value="F">Female</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+    </div>
+  
+    <div *ngIf="showBracketsDD">
+      <ion-list>
+        <ion-item>
+          <ion-label>Age Groups</ion-label>
+          <ion-select [(ngModel)]="selectedAgeGroup" (ionChange)="selectAgeGroup()">
+            <ion-select-option *ngFor="let item of groupSets | filterGroupSets: genderSpecificEventBrackets" [value]="item">{{ item }}</ion-select-option>
+              
+          </ion-select>
+        </ion-item>
+      </ion-list>
+    </div>
+  
+    <div *ngIf="showResultsBtn" id="showResultsBtnCon">
+      <ion-button color=danger (click)="showResults()">Show Results</ion-button>
+    </div>
+  </ion-content>
+  

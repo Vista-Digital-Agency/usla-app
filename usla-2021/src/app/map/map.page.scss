@@ -1,0 +1,27 @@
+#map {
+    height: 100%;
+}
+
+@media only screen and (min-height: 750px) and (orientation: portrait) {
+    ion-app {
+        margin-bottom: 0px!important;
+    }
+
+    ion-footer ion-toolbar:last-child {
+        padding-bottom: 0!important;
+      }
+}
+
+ion-app._gmaps_cdv_ .nav-decor{
+    background-color: transparent !important;
+}
+
+.footer ion-buttons ion-select {
+    margin: 0px auto;
+}
+
+.gm-ui-hover-effect {
+    outline: none!important;
+    display: none!important;
+    --background: black;
+}

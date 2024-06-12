@@ -1,0 +1,20 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Search Competitors</ion-title>
+  </ion-navbar>
+  <ion-toolbar>
+    <form>
+      <ion-searchbar [type]="search" (ionInput)="getItems($event)"></ion-searchbar>
+    </form>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-list>
+    <button ion-item *ngFor="let item of competitors | sortBy"  (click)="competitorClick(item)">
+      <ion-label>{{ item.first }} {{ item.last }}</ion-label>
+    </button>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,11 @@
+{
+    "EventKit.framework": 1,
+    "EventKitUI.framework": 1,
+    "CoreLocation.framework": 2,
+    "WebKit.framework": 1,
+    "libz.tbd": 1,
+    "Security.framework": 1,
+    "Storekit.framework": 1,
+    "libstdc++.dylib": 1,
+    "libz.dylib": 1
+}

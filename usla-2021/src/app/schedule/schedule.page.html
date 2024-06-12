@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Schedule</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row class="outerRow" color="danger" *ngFor="let event of sortFunc">
+    <ion-col>
+      <ion-row>
+          <ion-col class="eventTitle">
+            <h2>
+              {{event.name}}
+            </h2>  
+          </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="dTime">
+          {{ event.dateTime | date }} {{ event.dateTime | date:'shortTime' }}
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="calBtn">
+          <ion-button color="danger" (click)="addCal(event)">
+            Add to Calendar
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-col>
+   
+  </ion-row>
+</ion-content>

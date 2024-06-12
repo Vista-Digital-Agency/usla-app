@@ -1,0 +1,52 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title></ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+   
+  <div>
+    <ion-list>
+      <ion-item>
+        <ion-label>Events</ion-label>
+        <ion-select [(ngModel)]="selectedEvent" (ionChange)="selectEvent()">
+          <ion-option *ngFor="let item of events" [value]="item">{{ item }}</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+  </div>
+
+  <div *ngIf="showGenderDD">
+    <ion-list>
+      <ion-item>
+        <ion-label>Gender</ion-label>
+        <ion-select [(ngModel)]="selectedGender" (ionChange)="selectGender()">
+          <ion-option value="M">Male</ion-option>
+          <ion-option value="F">Female</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+  </div>
+
+  <div *ngIf="showBracketsDD">
+    <ion-list>
+      <ion-item>
+        <ion-label>Age Groups</ion-label>
+        <ion-select [(ngModel)]="selectedAgeGroup" (ionChange)="selectAgeGroup()">
+          <ion-option *ngFor="let item of groupSets | filterGroupSets: genderSpecificEventBrackets" [value]="item">{{ item }}</ion-option>
+            
+        </ion-select>
+      </ion-item>
+    </ion-list>
+  </div>
+
+  <div *ngIf="showResultsBtn" id="showResultsBtnCon">
+    <button ion-button round large [navPush]="resultsPage" 
+    [navParams]="{ selectedEvent: selectedEvent, gsed: genderSpecificEventData, ageGroup: selectedAgeGroup, gender: selectedGender, adults: true }">Show Results</button>
+  </div>
+  
+</ion-content>

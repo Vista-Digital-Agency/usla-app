@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-button style="font-weight: bold;" (click)="dismiss()">Close</ion-button>
+    </ion-buttons>
+    <ion-title>{{ sponsor.name }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-grid id="sponsorGrid">
+    <ion-row id="sponsorImageRow" *ngIf="sponsor.image != ''">
+      <ion-col>
+          <img [src]="sponsor.image"/> 
+      </ion-col>
+    </ion-row>
+    <ion-row id="sponsorDefaultImageRow" *ngIf="sponsor.image == ''">
+      <ion-col>
+          <img src="assets/lgLogo.png"/> 
+      </ion-col>
+    </ion-row>
+    <ion-row class="sponsorBtnsRow">
+      <ion-col>
+        <ion-item class="sponsorBtn" color="danger" (click)="openWebsite(sponsor.website)">
+          <ion-icon slot="start" name="globe"></ion-icon>
+          <ion-label slot="start">
+            Website
+          </ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row class="sponsorBtnsRow">
+      <ion-col *ngIf="sponsor.phone && sponsor.phone != ''">
+        <ion-item class="sponsorBtn" color="danger" (click)="call(sponsor.phone)">
+            <ion-icon slot="start" name="call"></ion-icon>
+            <ion-label slot="start">
+              Call
+            </ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row class="sponsorBtnsRow">
+      <ion-col *ngIf="sponsor.lat && sponsor.lng">
+        <ion-item class="sponsorBtn" color="danger" (click)="nav(sponsor.lat, sponsor.lng)">
+          <ion-icon slot="start" name="car"></ion-icon>
+          <ion-label slot="start">
+            Directions
+          </ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

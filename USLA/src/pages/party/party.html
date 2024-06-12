@@ -1,0 +1,85 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Festivities</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <div class="festWrapper">
+      <div class="festCon">
+        <h1 class="festTitle">
+            Parade of Athletes / Welcome Ceremony
+        </h1>
+
+        <p class="festContent">
+          All lifeguard and junior athletes, coaches and officials are invited to walk in the Championship Parade of Athletes. 
+          The parade will be led by the Beach Events All-Star Marching Band from 31st Street to the 4th Street Park for a short welcome ceremony. 
+          The Mayor of Virginia Beach, USLA President Peter Davis and a couple of others want to formally welcome you to the city and the 30th edition of the USLA National Lifeguard Championships.
+        </p>
+
+        <div class="buttonWrap">
+          <button ion-button color="water" (click)="openModal(parade)">
+            <div>Open Event</div>
+          </button>
+        </div>
+        
+      </div>
+      <div class="festCon">
+        <h1 class="festTitle">
+          Surf & Rescue Museum Happy Hour
+        </h1>
+
+        <p class="festContent">
+          Once the Welcome Ceremony is over, please take a moment to walk into the newly renovated Surf & Rescue Museum. 
+          Those who were here in the past will remember it as the Old Coast Guard Station, but now it is truly committed to 
+          the lifeguards and ocean rescue. Adults and competitors alike will enjoy the history of surf lifesaving in Virginia Beach with a section dedicated to the USLA.
+        </p>
+
+        <div class="buttonWrap">
+          <button ion-button color="water" (click)="openModal(happy)">
+            <div>Open Event</div>
+          </button>
+        </div>
+
+      </div>
+      <div class="festCon">
+        <h1 class="festTitle">
+          Competitor Dinner
+        </h1>
+
+        <p class="festContent">
+          The VBLA is graciously sponsoring a free dinner for the athletes before the Primetime National Beach 
+          Flag Finals under the lights! Athletes will have their choice of two of the VB guards’ favorite restaurants, 
+          Beach Bully with their famous barbecue and Pelon’s excellent Mexican fare!
+        </p>
+
+        <div class="buttonWrap">
+          <button ion-button color="water" (click)="openModal(dinner)">
+            <div>Open Event</div>
+          </button>
+        </div>
+
+      </div>
+      <div class="festCon">
+        <h1 class="festTitle">
+          Awards Party @ Peabody’s
+        </h1>
+
+        <p class="festContent">
+          Ask anyone from 2014 and they will tell you when the competition ends, the party begins! And there is only one place that can host a party big enough for this crew. The actual 
+          trophy presentation to the winning teams will take place at 9:30pm sharp so make sure you have your sharpest party dress or outfit ready for a fun night of dancing and celebrating 
+          the 30th edition of the USLA National Lifeguard Championships!
+        </p>
+
+        <div class="buttonWrap">
+          <button ion-button color="water" (click)="openModal(awards)">
+            <div>Open Event</div>
+          </button>
+        </div>
+      
+      </div>
+    </div>
+</ion-content>

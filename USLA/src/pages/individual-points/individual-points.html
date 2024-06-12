@@ -1,0 +1,96 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Individual Points</ion-title>
+  </ion-navbar>
+
+  <ion-toolbar>
+      <ion-segment color="" [(ngModel)]="category">
+        <ion-segment-button value="men">
+          Open Men
+        </ion-segment-button>
+        <ion-segment-button value="women">
+          Open Women
+        </ion-segment-button>
+      </ion-segment>
+    </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+    <div ion-fixed class="fixed-header">
+      <ion-row class="headerRow">
+        <ion-col col-2>
+          Rank
+        </ion-col>
+        <ion-col col-7>
+          Name
+        </ion-col>
+        <ion-col col-3>
+          Points
+        </ion-col>
+      </ion-row>
+    </div>
+
+    <div [ngSwitch]="category">
+        
+      <div *ngSwitchCase="'men'">
+        <ion-grid>
+          <!--<ion-row class="headerRow">
+            <ion-col col-2>
+              Rank
+            </ion-col>
+            <ion-col col-7>
+              Name
+            </ion-col>
+            <ion-col col-3>
+              Points
+            </ion-col>
+          </ion-row>-->
+          <ion-row *ngFor="let item of men" class="compRows">
+
+            <ion-col col-2>
+              {{ item.rank }}
+            </ion-col>
+            <ion-col col-7 class="nameCol">
+              {{ item.first }} {{ item.last }}
+            </ion-col>
+            <ion-col col-3 class="pointsCol">
+              {{ item.points.toFixed(3) }}
+            </ion-col>
+          </ion-row>
+                  
+        </ion-grid>
+      </div>
+        
+      <div *ngSwitchCase="'women'">
+        <ion-grid>
+          <!--<ion-row class="headerRow">
+            <ion-col col-2>
+              Rank
+            </ion-col>
+            <ion-col col-7>
+              Name
+            </ion-col>
+            <ion-col col-3>
+              Points
+            </ion-col>
+          </ion-row> -->
+          <ion-row *ngFor="let item of women" class="compRows">
+
+            <ion-col col-2>
+              {{ item.rank }}
+            </ion-col>
+            <ion-col col-7 class="nameCol">
+              {{ item.first }} {{ item.last }}
+            </ion-col>
+            <ion-col col-3 class="pointsCol">
+              {{ item.points.toFixed(3) }}
+            </ion-col>
+          </ion-row>
+                  
+        </ion-grid>
+      </div>
+    </div>
+
+</ion-content>

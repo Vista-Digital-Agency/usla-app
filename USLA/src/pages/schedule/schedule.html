@@ -1,0 +1,77 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Schedule</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="no-scroll">
+
+  <div class="logoDiv">
+    <img src="https://www.usla.org/graphics/logo.png" />
+  </div>
+
+  <div class="outerCon">
+  <ion-grid class="buttonGrid">
+    <ion-row id="schedFirstRow">
+    <ion-col style="text-align: center;">
+      <button ion-button [navPush]="scheduleDate" [navParams]="{ date: '5' }">
+        <div>August 5th</div>
+      </button>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <button ion-button [navPush]="scheduleDate" [navParams]="{ date: '6' }">
+        <div>August 6th</div>
+      </button>
+    </ion-col>
+  <!-- </ion-row>
+  <ion-row> -->
+    <ion-col>
+      <button ion-button [navPush]="scheduleDate" [navParams]="{ date: '7' }">
+        <div>August 7th</div>
+      </button>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <button ion-button [navPush]="scheduleDate" [navParams]="{ date: '8' }">
+        <div>August 8th</div>
+      </button>
+    </ion-col>
+  <!-- </ion-row>
+  <ion-row> -->
+    <ion-col>
+      <button ion-button [navPush]="scheduleDate" [navParams]="{ date: '9' }">
+        <div>August 9th</div>
+      </button>
+    </ion-col>
+  </ion-row>
+  <ion-row id="schedLastRow">
+    <ion-col>
+      <button ion-button [navPush]="scheduleDate" [navParams]="{ date: '10' }">
+        <div>August 10th</div>
+      </button>
+    </ion-col>
+  <!-- </ion-row>
+  <ion-row> -->
+    <ion-col>
+      <button ion-button [navPush]="scheduleDate" [navParams]="{ date: '11' }">
+        <div>August 11th</div>
+      </button>
+    </ion-col>
+  </ion-row>
+  <ion-row id="schedRow">
+    <ion-col>
+      <button id="mySchedButton" block ion-button icon-left [navPush]="mySchedule">
+        <ion-icon name="list-box"></ion-icon>
+        <div>My Schedule</div>
+      </button>
+    </ion-col>
+  </ion-row>
+  </ion-grid>
+</div>
+</ion-content>

@@ -1,0 +1,70 @@
+page-event-modal {
+    .grid {
+        padding: 0px!important;
+    }
+
+    .content {
+        background-color: rgba(204, 204, 204, 0.25);
+    }
+
+    ion-row {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .scroll-content {
+        background-image: none;
+        background-color: rgba(9, 54, 122, 0.98);
+    }
+
+    #topGrid {
+        text-align: center;
+    }
+
+    #bottomGrid {
+        margin-top: 25px;
+    }
+
+    .eventAddressCol {
+        padding: 10px 15px;
+    }
+
+    .eventTime {
+        margin-top: 5px;
+    }
+
+    .eventAddress {
+        margin-bottom: 10px;
+    }
+
+    ion-col {
+        color: white;
+        font-size: 2rem;
+    }
+
+    .eventDate {
+        font-style: italic;
+    }
+
+    .eventDateRow {
+        padding-bottom: 15px;
+        border-bottom: 1px solid whitesmoke;
+        //#ca002d
+    }
+
+    .eventInfo {
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        color: white;
+        font-size: 2rem;
+        border-bottom: 1px solid whitesmoke;
+    }
+
+    .addToBtn {
+        font-weight: bold;
+    }
+
+    button {
+        min-width: 220px;
+    }
+}

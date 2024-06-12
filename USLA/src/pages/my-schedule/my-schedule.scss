@@ -1,0 +1,64 @@
+page-my-schedule {
+    .scroll-content {
+        background-color: #EED6AF;
+    }
+    
+    .events {
+        margin-bottom: 10px;
+        text-align: center;
+        padding-left: 0px;
+        background-color: rgba(9, 54, 122, 0.98);
+    }
+
+    ion-label {
+        margin: 11px 8px!important;
+    }
+
+    .eventTitle {
+        color: white;
+        font-size: 2rem;
+        white-space: normal;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .eventDate {
+        color: white;
+        white-space: normal;
+        font-style: italic; 
+    }
+
+    .events .item-inner {
+        padding: 5px 0px;
+        border-top: 1px solid whitesmoke!important;
+        border-bottom: 1px solid whitesmoke!important;
+    }
+
+    .eventsCon {
+        margin-top: 20px;
+    }
+
+    .mySchedBtnCon {
+        margin-top: 20px;
+    }
+
+    .mySchedBtnCon button {
+        min-width: 150px;
+    }
+
+    .schedMessage {
+        width: 300px;
+        text-align: center;
+        background-color: rgba(9, 54, 122, 0.98);
+        color: white;
+        border: 1px solid rgba(245, 245, 245, 0.7);
+        padding: 5px;
+        margin: 0px auto;
+        border-radius: .25rem;
+    }
+
+    .schedMessage h3 {
+        padding: 15px!important;
+        margin-bottom: 0px;
+    }
+}

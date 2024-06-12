@@ -1,0 +1,112 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-button style="font-weight: bold;" color="light" (click)="dismiss()">Close</ion-button>
+    </ion-buttons>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <div *ngIf="ageGroup" id="outerGrid">
+        
+            <ion-card *ngFor="let item of results | groupSorter: ageGroup: adults | sort">
+        
+                <ion-grid id="innerGrid">
+                  <ion-row align-items-center>
+        
+                    <ion-col col-2>
+                      <h1>{{ item.place }}</h1>
+                    </ion-col>
+        
+                    <ion-col col-10>
+                      <h1>{{ item.first }} {{ item.last }}</h1>
+                    </ion-col>
+        
+                  </ion-row>
+                  <ion-row>
+        
+                    <ion-col>
+                      <div>
+                        Points: {{ item.points }}
+                      </div>
+                    </ion-col>
+        
+                    <ion-col>
+                      <div>
+                        Number: {{ item.id }} 
+                      </div>
+                    </ion-col>
+        
+                  </ion-row>
+                  <ion-row>
+                    <ion-col>
+                      <div>
+                        Chapter:<br> {{ item.chapter }}
+                      </div>
+                    </ion-col>
+                  </ion-row>
+                  <ion-row>
+                    <ion-col>
+                      <div>
+                        Region:<br> {{ item.regionName }}
+                      </div>
+                    </ion-col>
+                  </ion-row>
+                    
+                </ion-grid>
+            </ion-card>
+        
+          </div>
+        
+          <div *ngIf="!ageGroup" id="outerGrid">
+            <ion-card *ngFor="let item of results | sort">
+                  <ion-grid id="innerGrid">
+                    <ion-row align-items-center>
+        
+                      <ion-col col-2>
+                        <h1>{{ item.place }}</h1>
+                      </ion-col>
+        
+                      <ion-col col-10>
+                        <h1>{{ item.first }} {{ item.last }}</h1>
+                      </ion-col>
+        
+                    </ion-row>
+                    <ion-row>
+        
+                      <ion-col>
+                        <div>
+                          Points: {{ item.points }}
+                        </div>
+                      </ion-col>
+        
+                      <ion-col>
+                        <div>
+                          Number: {{ item.id }} 
+                        </div>
+                      </ion-col>
+        
+                    </ion-row>
+                    <ion-row>
+                      <ion-col>
+                        <div>
+                          Chapter:<br> {{ item.chapter }}
+                        </div>
+                      </ion-col>
+                    </ion-row>
+                    <ion-row>
+                      <ion-col>
+                        <div>
+                          Region:<br> {{ item.regionName }}
+                        </div>
+                      </ion-col>
+                    </ion-row>
+                      
+                  </ion-grid>
+        
+                </ion-card>
+          </div>
+
+</ion-content>

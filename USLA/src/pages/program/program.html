@@ -1,0 +1,46 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Program</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  
+    <div class="pdfDownload">
+      <button ion-button [navPush]="resultTypes" [color]="water">Results Types</button>
+    </div>
+
+    <div class="pdfDownload">
+      <button ion-button icon-left [color]="water" (click)="openPdf('https://vistagraphics-my.sharepoint.com/:b:/g/personal/caleb_vgnet_com/EUYKlWxnxtdJrtXnwXgN8KgBeLz54cvhaXgJsUdR-SrV0w?e=Wc2Uy2')">
+        <ion-icon name="document"></ion-icon>
+        Download Full PDF
+      </button>
+    </div>
+    <ngb-accordion [closeOthers]="true">
+        <ngb-panel *ngFor="let item of events; let j = index" id="static-{{j}}"> 
+            <ng-template  ngbPanelTitle>
+            <div>
+              &nbsp;{{ item.name }}
+            </div>
+          </ng-template>
+          <ng-template ngbPanelContent>
+
+            <ion-card>
+              <ion-card-content>
+                  <img [src]="item.image">
+                  <div>{{ item.description }}</div>
+                  <div style="text-align: center; margin-top: 15px;" *ngIf="item.results != ''">
+                    <button class="addToBtn" ion-button round icon-left (click)="website(item.results)">
+                      <ion-icon name="globe"></ion-icon>
+                      <div>Results</div>
+                    </button>
+                  </div>
+              </ion-card-content>
+            </ion-card>
+          </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+</ion-content>

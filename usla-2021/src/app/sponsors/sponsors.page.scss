@@ -1,0 +1,27 @@
+ion-card {
+    background-color: white;
+}
+
+ion-card h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+ion-card img {
+    padding: 40px;
+    width: 100%;
+}
+
+ion-card-content {
+    //background-color: #24608a;
+}
+
+ion-card-content ion-item ion-label {
+    font-weight: bold;
+}
+
+#sponsorsCon {
+    //background-color: rgba(66, 66, 66, 0.65);
+    background-color: #24608a;
+    padding-top: 20px;
+}

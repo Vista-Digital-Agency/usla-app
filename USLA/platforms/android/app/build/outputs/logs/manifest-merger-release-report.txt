@@ -1,0 +1,939 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:2:1-35:12
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-gcm-15.0.1.aar/f9e99a8196368e4f82109e7c4eb37833/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/990e495d3eb3148d495d56a26cd1ba70/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-core:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/2bcb3fd557133c1b5258939b5e7a8b12/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/cb9dce0e2631d7a2743e9be1f0b542ca/AndroidManifest.xml:17:1-37:12
+MERGED from [com.android.support:design:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/abf5b9b09f8a264d780aafbab932e140/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0c59d55463bc9e5bde35890fff778b18/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-iid-15.0.1.aar/ccddc22bf96d2175762d068f89271b33/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/29051810f8c5c8a6fec7e99f27746bf5/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f94a0c7e5f482b1912c5502e611d657/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/61f9fe0ff952f817949e2ae71e11fba9/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/194ee9be77e19f06f5c8c2c0048fa992/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/0a268a5f4f5a63fdafa72801e8a2ba68/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/94e431d2c1bb091bb75f27db18b1d8f8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-common:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/7df7a081ac20b1ca8f69945d8d5c4c7e/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/3a5d6617ecf637ef2eacd29b34788052/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/93b142dd569556b3321399288db1d421/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/c5b5e1dfd21f173caa25788015362b9c/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8f9d9865a60c7291c5e133f7918174ba/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/636093db7b3e0c292793c0f4094f93be/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/13861a8ff4aa2a2a0de10dd9b6852f43/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f2e270a06a4d27708e7446c6689c9770/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /private/var/root/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9bb8f728e5dc3a02a9ec16b682a2bfc1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:2:1-93:12
+MERGED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:27:1-82:12
+MERGED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:27:1-75:12
+MERGED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:27:1-86:12
+MERGED from [com.pushwoosh:pushwoosh-inbox:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-inbox-5.8.3.aar/e7d88fc51cfb5509ef8e1f8fcc29cf15/AndroidManifest.xml:27:1-41:12
+MERGED from [com.pushwoosh:pushwoosh-inbox-ui:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-inbox-ui-5.8.3.aar/5e4926ccdcbe5106291d70529a200535/AndroidManifest.xml:27:1-42:12
+MERGED from [:CordovaLib] /Users/clew/Desktop/USLA/platforms/android/CordovaLib/build/intermediates/manifests/full/release/AndroidManifest.xml:20:1-27:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c6663dde4b710841a19530d6c3e08f24/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f84321349ebe74fd0d525121cc2fbecd/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/eb7cef85fa0333ae9a5991fc932a868c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/ee3cea1d5553b20b56986563d1d11c64/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d1086890a4c8f8dd07c7b934bb0070ae/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/551e01308e8c8724448e9b2f9310cd9e/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/e43027f1cfadfa4f8dd97b4056a057cb/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6bf204efd164f53077fedeb6427491ef/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:2:102-135
+		INJECTED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:2:74-101
+		INJECTED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:2:136-194
+	android:versionCode
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:2:46-73
+		INJECTED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-gcm-15.0.1.aar/f9e99a8196368e4f82109e7c4eb37833/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-gcm-15.0.1.aar/f9e99a8196368e4f82109e7c4eb37833/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-iid-15.0.1.aar/ccddc22bf96d2175762d068f89271b33/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-iid-15.0.1.aar/ccddc22bf96d2175762d068f89271b33/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/29051810f8c5c8a6fec7e99f27746bf5/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/29051810f8c5c8a6fec7e99f27746bf5/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f94a0c7e5f482b1912c5502e611d657/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f94a0c7e5f482b1912c5502e611d657/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:23:5-67
+MERGED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:13:5-67
+MERGED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:5:5-28:19
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-gcm-15.0.1.aar/f9e99a8196368e4f82109e7c4eb37833/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-gcm-15.0.1.aar/f9e99a8196368e4f82109e7c4eb37833/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/990e495d3eb3148d495d56a26cd1ba70/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/990e495d3eb3148d495d56a26cd1ba70/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/2bcb3fd557133c1b5258939b5e7a8b12/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/2bcb3fd557133c1b5258939b5e7a8b12/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/cb9dce0e2631d7a2743e9be1f0b542ca/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/cb9dce0e2631d7a2743e9be1f0b542ca/AndroidManifest.xml:22:5-35:19
+MERGED from [com.android.support:design:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/abf5b9b09f8a264d780aafbab932e140/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/abf5b9b09f8a264d780aafbab932e140/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0c59d55463bc9e5bde35890fff778b18/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0c59d55463bc9e5bde35890fff778b18/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-iid-15.0.1.aar/ccddc22bf96d2175762d068f89271b33/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-iid-15.0.1.aar/ccddc22bf96d2175762d068f89271b33/AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/29051810f8c5c8a6fec7e99f27746bf5/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/29051810f8c5c8a6fec7e99f27746bf5/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f94a0c7e5f482b1912c5502e611d657/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f94a0c7e5f482b1912c5502e611d657/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/61f9fe0ff952f817949e2ae71e11fba9/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/61f9fe0ff952f817949e2ae71e11fba9/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/194ee9be77e19f06f5c8c2c0048fa992/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/194ee9be77e19f06f5c8c2c0048fa992/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/0a268a5f4f5a63fdafa72801e8a2ba68/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/0a268a5f4f5a63fdafa72801e8a2ba68/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/94e431d2c1bb091bb75f27db18b1d8f8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/94e431d2c1bb091bb75f27db18b1d8f8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-common:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/7df7a081ac20b1ca8f69945d8d5c4c7e/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/7df7a081ac20b1ca8f69945d8d5c4c7e/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/3a5d6617ecf637ef2eacd29b34788052/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/3a5d6617ecf637ef2eacd29b34788052/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/93b142dd569556b3321399288db1d421/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/93b142dd569556b3321399288db1d421/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/c5b5e1dfd21f173caa25788015362b9c/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/c5b5e1dfd21f173caa25788015362b9c/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8f9d9865a60c7291c5e133f7918174ba/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8f9d9865a60c7291c5e133f7918174ba/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/636093db7b3e0c292793c0f4094f93be/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/636093db7b3e0c292793c0f4094f93be/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/13861a8ff4aa2a2a0de10dd9b6852f43/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/13861a8ff4aa2a2a0de10dd9b6852f43/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f2e270a06a4d27708e7446c6689c9770/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f2e270a06a4d27708e7446c6689c9770/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /private/var/root/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9bb8f728e5dc3a02a9ec16b682a2bfc1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /private/var/root/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9bb8f728e5dc3a02a9ec16b682a2bfc1/AndroidManifest.xml:9:5-20
+MERGED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:18:5-91:19
+MERGED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:18:5-91:19
+MERGED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:46:5-80:19
+MERGED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:46:5-80:19
+MERGED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:69:5-73:19
+MERGED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:69:5-73:19
+MERGED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:45:5-84:19
+MERGED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:45:5-84:19
+MERGED from [com.pushwoosh:pushwoosh-inbox:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-inbox-5.8.3.aar/e7d88fc51cfb5509ef8e1f8fcc29cf15/AndroidManifest.xml:35:5-39:19
+MERGED from [com.pushwoosh:pushwoosh-inbox:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-inbox-5.8.3.aar/e7d88fc51cfb5509ef8e1f8fcc29cf15/AndroidManifest.xml:35:5-39:19
+MERGED from [com.pushwoosh:pushwoosh-inbox-ui:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-inbox-ui-5.8.3.aar/5e4926ccdcbe5106291d70529a200535/AndroidManifest.xml:36:5-40:19
+MERGED from [com.pushwoosh:pushwoosh-inbox-ui:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-inbox-ui-5.8.3.aar/5e4926ccdcbe5106291d70529a200535/AndroidManifest.xml:36:5-40:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c6663dde4b710841a19530d6c3e08f24/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c6663dde4b710841a19530d6c3e08f24/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f84321349ebe74fd0d525121cc2fbecd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f84321349ebe74fd0d525121cc2fbecd/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/eb7cef85fa0333ae9a5991fc932a868c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/eb7cef85fa0333ae9a5991fc932a868c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/ee3cea1d5553b20b56986563d1d11c64/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/ee3cea1d5553b20b56986563d1d11c64/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d1086890a4c8f8dd07c7b934bb0070ae/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d1086890a4c8f8dd07c7b934bb0070ae/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/551e01308e8c8724448e9b2f9310cd9e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/551e01308e8c8724448e9b2f9310cd9e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/e43027f1cfadfa4f8dd97b4056a057cb/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/e43027f1cfadfa4f8dd97b4056a057cb/AndroidManifest.xml:22:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6bf204efd164f53077fedeb6427491ef/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6bf204efd164f53077fedeb6427491ef/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
+activity#com.uslanationals.vista.MainActivity
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:6:257-299
+	android:configChanges
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:6:194-256
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:6:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+meta-data#com.pushwoosh.log_level
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:12:9-83
+	android:value
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:12:59-80
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:12:20-58
+meta-data#com.pushwoosh.foreground_push
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:13:9-89
+	android:value
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:13:65-86
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:13:20-64
+meta-data#com.pushwoosh.notification_service_extension
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:14:9-175
+	android:value
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:14:80-172
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:14:20-79
+meta-data#com.pushwoosh.internal.plugin_provider
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:15:9-145
+	android:value
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:15:74-142
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:15:20-73
+service#com.pushwoosh.thirdparty.radiusnetworks.ibeacon.service.IBeaconService
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:16:9-209
+	android:enabled
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:16:18-40
+	android:label
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:16:97-120
+	android:exported
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:16:41-64
+	android:isolatedProcess
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:16:65-96
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:16:121-206
+service#com.pushwoosh.thirdparty.radiusnetworks.ibeacon.IBeaconIntentProcessor
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:17:9-129
+	android:enabled
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:17:18-40
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:17:41-126
+service#com.pushwoosh.beacon.PushBeaconService
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:18:9-74
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:18:18-71
+meta-data#com.pushwoosh.plugin.location
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:19:9-121
+	android:value
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:19:65-118
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:19:20-64
+service#com.pushwoosh.location.network.GeoLocationServiceApi16
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:20:9-90
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:20:18-87
+activity#com.pushwoosh.location.internal.utils.ResolutionActivity
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:21:9-153
+	android:theme
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:21:91-150
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:21:19-90
+service#com.pushwoosh.location.network.GeoLocationServiceApi21
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:22:9-171
+	android:exported
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:22:18-41
+	android:permission
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:22:112-168
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:22:42-111
+receiver#com.pushwoosh.location.geofencer.GeofenceReceiver
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:23:9-27:20
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:23:19-83
+intent-filter#com.uslanationals.vista.action.GEOFENCE
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:24:13-26:29
+action#com.uslanationals.vista.action.GEOFENCE
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:25:17-82
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:25:25-79
+uses-sdk
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:29:5-74
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-gcm-15.0.1.aar/f9e99a8196368e4f82109e7c4eb37833/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-gcm-15.0.1.aar/f9e99a8196368e4f82109e7c4eb37833/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/990e495d3eb3148d495d56a26cd1ba70/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/990e495d3eb3148d495d56a26cd1ba70/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/2bcb3fd557133c1b5258939b5e7a8b12/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/2bcb3fd557133c1b5258939b5e7a8b12/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/cb9dce0e2631d7a2743e9be1f0b542ca/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/cb9dce0e2631d7a2743e9be1f0b542ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/abf5b9b09f8a264d780aafbab932e140/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/abf5b9b09f8a264d780aafbab932e140/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0c59d55463bc9e5bde35890fff778b18/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0c59d55463bc9e5bde35890fff778b18/AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-iid-15.0.1.aar/ccddc22bf96d2175762d068f89271b33/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-iid-15.0.1.aar/ccddc22bf96d2175762d068f89271b33/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/29051810f8c5c8a6fec7e99f27746bf5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/29051810f8c5c8a6fec7e99f27746bf5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f94a0c7e5f482b1912c5502e611d657/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f94a0c7e5f482b1912c5502e611d657/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/61f9fe0ff952f817949e2ae71e11fba9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/61f9fe0ff952f817949e2ae71e11fba9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/194ee9be77e19f06f5c8c2c0048fa992/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/194ee9be77e19f06f5c8c2c0048fa992/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/0a268a5f4f5a63fdafa72801e8a2ba68/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/0a268a5f4f5a63fdafa72801e8a2ba68/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/94e431d2c1bb091bb75f27db18b1d8f8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/94e431d2c1bb091bb75f27db18b1d8f8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/7df7a081ac20b1ca8f69945d8d5c4c7e/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-common:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/7df7a081ac20b1ca8f69945d8d5c4c7e/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/3a5d6617ecf637ef2eacd29b34788052/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/3a5d6617ecf637ef2eacd29b34788052/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/93b142dd569556b3321399288db1d421/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-16.0.0.aar/93b142dd569556b3321399288db1d421/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/c5b5e1dfd21f173caa25788015362b9c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/c5b5e1dfd21f173caa25788015362b9c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8f9d9865a60c7291c5e133f7918174ba/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8f9d9865a60c7291c5e133f7918174ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/636093db7b3e0c292793c0f4094f93be/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/636093db7b3e0c292793c0f4094f93be/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/13861a8ff4aa2a2a0de10dd9b6852f43/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/13861a8ff4aa2a2a0de10dd9b6852f43/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f2e270a06a4d27708e7446c6689c9770/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f2e270a06a4d27708e7446c6689c9770/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /private/var/root/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9bb8f728e5dc3a02a9ec16b682a2bfc1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /private/var/root/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/9bb8f728e5dc3a02a9ec16b682a2bfc1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:6:5-44
+MERGED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:6:5-44
+MERGED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:32:5-34:41
+MERGED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:32:5-34:41
+MERGED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:31:5-33:41
+MERGED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:31:5-33:41
+MERGED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:31:5-33:41
+MERGED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:31:5-33:41
+MERGED from [com.pushwoosh:pushwoosh-inbox:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-inbox-5.8.3.aar/e7d88fc51cfb5509ef8e1f8fcc29cf15/AndroidManifest.xml:31:5-33:41
+MERGED from [com.pushwoosh:pushwoosh-inbox:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-inbox-5.8.3.aar/e7d88fc51cfb5509ef8e1f8fcc29cf15/AndroidManifest.xml:31:5-33:41
+MERGED from [com.pushwoosh:pushwoosh-inbox-ui:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-inbox-ui-5.8.3.aar/5e4926ccdcbe5106291d70529a200535/AndroidManifest.xml:32:5-34:41
+MERGED from [com.pushwoosh:pushwoosh-inbox-ui:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-inbox-ui-5.8.3.aar/5e4926ccdcbe5106291d70529a200535/AndroidManifest.xml:32:5-34:41
+MERGED from [:CordovaLib] /Users/clew/Desktop/USLA/platforms/android/CordovaLib/build/intermediates/manifests/full/release/AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] /Users/clew/Desktop/USLA/platforms/android/CordovaLib/build/intermediates/manifests/full/release/AndroidManifest.xml:25:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c6663dde4b710841a19530d6c3e08f24/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c6663dde4b710841a19530d6c3e08f24/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f84321349ebe74fd0d525121cc2fbecd/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f84321349ebe74fd0d525121cc2fbecd/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/eb7cef85fa0333ae9a5991fc932a868c/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/eb7cef85fa0333ae9a5991fc932a868c/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/ee3cea1d5553b20b56986563d1d11c64/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/ee3cea1d5553b20b56986563d1d11c64/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d1086890a4c8f8dd07c7b934bb0070ae/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d1086890a4c8f8dd07c7b934bb0070ae/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/551e01308e8c8724448e9b2f9310cd9e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/551e01308e8c8724448e9b2f9310cd9e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/e43027f1cfadfa4f8dd97b4056a057cb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/e43027f1cfadfa4f8dd97b4056a057cb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6bf204efd164f53077fedeb6427491ef/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6bf204efd164f53077fedeb6427491ef/AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/abf5b9b09f8a264d780aafbab932e140/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:29:42-71
+	android:minSdkVersion
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:29:15-41
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:30:5-72
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:30:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:31:5-73
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:31:22-70
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:32:5-81
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:32:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:33:5-79
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:33:22-76
+uses-feature#android.hardware.location.gps
+ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:34:5-66
+	android:name
+		ADDED from /Users/clew/Desktop/USLA/platforms/android/app/src/main/AndroidManifest.xml:34:19-63
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-gcm-15.0.1.aar/f9e99a8196368e4f82109e7c4eb37833/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-iid-15.0.1.aar/ccddc22bf96d2175762d068f89271b33/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-iid-15.0.1.aar/ccddc22bf96d2175762d068f89271b33/AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:26:5-82
+MERGED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:16:5-82
+MERGED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:16:5-82
+MERGED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:43:5-82
+MERGED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:43:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-gcm-15.0.1.aar/f9e99a8196368e4f82109e7c4eb37833/AndroidManifest.xml:23:22-79
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/cb9dce0e2631d7a2743e9be1f0b542ca/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/cb9dce0e2631d7a2743e9be1f0b542ca/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/cb9dce0e2631d7a2743e9be1f0b542ca/AndroidManifest.xml:29:13-82
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/cb9dce0e2631d7a2743e9be1f0b542ca/AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:17.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/cb9dce0e2631d7a2743e9be1f0b542ca/AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/cb9dce0e2631d7a2743e9be1f0b542ca/AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.1.0.aar/cb9dce0e2631d7a2743e9be1f0b542ca/AndroidManifest.xml:32:25-75
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/abf5b9b09f8a264d780aafbab932e140/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0c59d55463bc9e5bde35890fff778b18/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0c59d55463bc9e5bde35890fff778b18/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/636093db7b3e0c292793c0f4094f93be/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/636093db7b3e0c292793c0f4094f93be/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/13861a8ff4aa2a2a0de10dd9b6852f43/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/13861a8ff4aa2a2a0de10dd9b6852f43/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f2e270a06a4d27708e7446c6689c9770/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/f2e270a06a4d27708e7446c6689c9770/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c6663dde4b710841a19530d6c3e08f24/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/c6663dde4b710841a19530d6c3e08f24/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f84321349ebe74fd0d525121cc2fbecd/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f84321349ebe74fd0d525121cc2fbecd/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/eb7cef85fa0333ae9a5991fc932a868c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/eb7cef85fa0333ae9a5991fc932a868c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/ee3cea1d5553b20b56986563d1d11c64/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/ee3cea1d5553b20b56986563d1d11c64/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d1086890a4c8f8dd07c7b934bb0070ae/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d1086890a4c8f8dd07c7b934bb0070ae/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/551e01308e8c8724448e9b2f9310cd9e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/551e01308e8c8724448e9b2f9310cd9e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/abf5b9b09f8a264d780aafbab932e140/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/abf5b9b09f8a264d780aafbab932e140/AndroidManifest.xml:27:13-51
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/29051810f8c5c8a6fec7e99f27746bf5/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f94a0c7e5f482b1912c5502e611d657/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f94a0c7e5f482b1912c5502e611d657/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:22:5-79
+MERGED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:10:5-79
+MERGED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/29051810f8c5c8a6fec7e99f27746bf5/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/29051810f8c5c8a6fec7e99f27746bf5/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f94a0c7e5f482b1912c5502e611d657/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f94a0c7e5f482b1912c5502e611d657/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:24:5-68
+MERGED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:9:5-68
+MERGED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/29051810f8c5c8a6fec7e99f27746bf5/AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/29051810f8c5c8a6fec7e99f27746bf5/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/29051810f8c5c8a6fec7e99f27746bf5/AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/29051810f8c5c8a6fec7e99f27746bf5/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/29051810f8c5c8a6fec7e99f27746bf5/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/29051810f8c5c8a6fec7e99f27746bf5/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f94a0c7e5f482b1912c5502e611d657/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f94a0c7e5f482b1912c5502e611d657/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f94a0c7e5f482b1912c5502e611d657/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/1f94a0c7e5f482b1912c5502e611d657/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:35:13-100
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/65a208636505ce29dd52d06088ae6a34/AndroidManifest.xml:49:13-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:28:5-30:47
+MERGED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:36:5-38:47
+MERGED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:36:5-38:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:29:9-63
+permission#com.uslanationals.vista.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:28:5-30:47
+MERGED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:36:5-38:47
+MERGED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:36:5-38:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:32:5-79
+MERGED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:40:5-79
+MERGED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:40:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:32:22-76
+uses-permission#com.uslanationals.vista.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:32:5-79
+MERGED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:40:5-79
+MERGED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:40:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:32:22-76
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:42:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:45:13-49:29
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.uslanationals.vista
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:48:27-58
+category#com.uslanationals.vista
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:57:13-77
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:59:13-61:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:59:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.2.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.2.0.aar/6be8cd4a393e778fc5dbf14a22329b42/AndroidManifest.xml:60:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/194ee9be77e19f06f5c8c2c0048fa992/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/194ee9be77e19f06f5c8c2c0048fa992/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/194ee9be77e19f06f5c8c2c0048fa992/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/194ee9be77e19f06f5c8c2c0048fa992/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/7df7a081ac20b1ca8f69945d8d5c4c7e/AndroidManifest.xml:9:9-13:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/7df7a081ac20b1ca8f69945d8d5c4c7e/AndroidManifest.xml:11:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/7df7a081ac20b1ca8f69945d8d5c4c7e/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/7df7a081ac20b1ca8f69945d8d5c4c7e/AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/7df7a081ac20b1ca8f69945d8d5c4c7e/AndroidManifest.xml:10:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8f9d9865a60c7291c5e133f7918174ba/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8f9d9865a60c7291c5e133f7918174ba/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /private/var/root/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8f9d9865a60c7291c5e133f7918174ba/AndroidManifest.xml:24:13-58
+activity#com.pushwoosh.inapp.view.RichMediaWebActivity
+ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:19:9-21:75
+	android:theme
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:21:13-72
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:20:13-73
+activity#com.pushwoosh.inapp.view.RemoteUrlActivity
+ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:22:9-24:75
+	android:theme
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:24:13-72
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:23:13-70
+service#com.pushwoosh.inapp.InAppRetrieverService
+ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:26:9-28:72
+	android:permission
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:28:13-69
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:27:13-69
+receiver#com.pushwoosh.BootReceiver
+ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:30:9-39:20
+	android:enabled
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:32:13-35
+	android:permission
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:33:13-75
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:31:13-54
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.DEFAULT
+ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:34:13-38:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:35:17-79
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:35:25-76
+category#android.intent.category.DEFAULT
+ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:37:17-76
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:37:27-73
+service#com.pushwoosh.FcmRegistrationService
+ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:41:9-45:19
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:41:18-69
+service#com.pushwoosh.PushFcmIntentService
+ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:46:9-50:19
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:46:18-67
+activity#com.pushwoosh.internal.utils.PermissionActivity
+ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:52:9-54:75
+	android:theme
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:54:13-72
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:53:13-75
+receiver#com.pushwoosh.notification.LocalNotificationReceiver
+ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:56:9-89
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:56:19-86
+service#com.pushwoosh.internal.utils.LockScreenService
+ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:58:9-62:72
+	android:enabled
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:60:13-35
+	android:exported
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:61:13-37
+	android:permission
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:62:13-69
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:59:13-74
+provider#com.pushwoosh.PushwooshInitProvider
+ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:65:9-70:38
+	android:enabled
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:68:13-35
+	android:authorities
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:67:13-73
+	android:exported
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:69:13-37
+	android:initOrder
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:70:13-35
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:66:13-63
+service#com.pushwoosh.PushwooshService
+ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:72:9-75:72
+	android:exported
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:74:13-37
+	android:permission
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:75:13-69
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:73:13-58
+receiver#com.pushwoosh.NotificationOpenReceiver
+ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:77:9-80:40
+	android:enabled
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:79:13-35
+	android:exported
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:80:13-37
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:78:13-66
+provider#com.pushwoosh.internal.fileprovider.PWFileProvider
+ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:82:9-90:20
+	android:grantUriPermissions
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:86:13-47
+	android:authorities
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:84:13-60
+	android:exported
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:85:13-37
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:83:13-78
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:87:13-89:61
+	android:resource
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:89:17-58
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-5.8.3.aar/e7c5f5952c5e5dc385b98853f9f6d375/AndroidManifest.xml:88:17-67
+uses-permission#com.amazon.device.messaging.permission.RECEIVE
+ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:36:5-86
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:36:22-83
+permission#${applicationId}.permission.RECEIVE_ADM_MESSAGE
+ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:39:5-41:47
+	android:protectionLevel
+		ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:41:9-44
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:40:9-71
+permission#com.uslanationals.vista.permission.RECEIVE_ADM_MESSAGE
+ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:39:5-41:47
+	android:protectionLevel
+		ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:41:9-44
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:40:9-71
+uses-permission#${applicationId}.permission.RECEIVE_ADM_MESSAGE
+ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:43:5-87
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:43:22-84
+uses-permission#com.uslanationals.vista.permission.RECEIVE_ADM_MESSAGE
+ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:43:5-87
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:43:22-84
+amazon:enable-feature
+ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:52:9-54:40
+	android:required
+		ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:54:13-37
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:53:13-55
+provider#com.pushwoosh.amazon.AmazonInitProvider
+ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:58:9-63:38
+	android:enabled
+		ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:61:13-35
+	android:authorities
+		ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:60:13-79
+	android:exported
+		ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:62:13-37
+	android:initOrder
+		ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:63:13-35
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:59:13-67
+service#com.pushwoosh.PushAmazonIntentService
+ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:65:9-73
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:65:18-70
+receiver#com.pushwoosh.PushAmazonReceiver
+ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:68:9-77:20
+	android:permission
+		ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:70:13-77
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:69:13-60
+intent-filter#${applicationId}+com.amazon.device.messaging.intent.RECEIVE+com.amazon.device.messaging.intent.REGISTRATION
+ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:71:13-76:29
+intent-filter#com.amazon.device.messaging.intent.RECEIVE+com.amazon.device.messaging.intent.REGISTRATION+com.uslanationals.vista
+ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:71:13-76:29
+action#com.amazon.device.messaging.intent.REGISTRATION
+ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:72:17-90
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:72:25-87
+action#com.amazon.device.messaging.intent.RECEIVE
+ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:73:17-85
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-amazon:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-amazon-5.8.3.aar/6fd133359520009430b432caa19b88ca/AndroidManifest.xml:73:25-82
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:36:5-86
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:36:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:37:5-87
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:37:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:40:5-81
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:40:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:41:5-83
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:41:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:44:5-88
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:44:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:45:5-92
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:45:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:48:5-84
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:48:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:51:5-83
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:51:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:54:5-91
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:54:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:55:5-92
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:55:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:56:5-93
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:56:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:59:5-73
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:59:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:62:5-82
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:62:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:63:5-83
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:63:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:66:5-88
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:66:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:67:5-89
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:67:22-86
+meta-data#com.pushwoosh.plugin.badge
+ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:70:9-72:63
+	android:value
+		ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:72:13-60
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-badge:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-badge-5.8.3.aar/a31f896d93b44ee780b6e415331f8045/AndroidManifest.xml:71:13-54
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:48:9-57:20
+	android:exported
+		ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:50:13-36
+	android:permission
+		ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:51:13-73
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:49:13-66
+service#com.pushwoosh.GcmRegistrationService
+ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:60:9-66:19
+	android:exported
+		ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:62:13-37
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:61:13-64
+intent-filter#com.google.android.gms.iid.InstanceID
+ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:63:13-65:29
+	android:priority
+		ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:63:28-50
+action#com.google.android.gms.iid.InstanceID
+ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:64:17-80
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:64:25-77
+service#com.pushwoosh.PushGcmIntentService
+ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:67:9-73:19
+	android:exported
+		ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:69:13-37
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:68:13-62
+intent-filter#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:70:13-72:29
+	android:priority
+		ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:70:28-50
+provider#com.pushwoosh.gcm.GcmInitProvider
+ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:77:9-82:38
+	android:enabled
+		ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:80:13-35
+	android:authorities
+		ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:79:13-76
+	android:exported
+		ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:81:13-37
+	android:initOrder
+		ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:82:13-35
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-gcm:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-gcm-5.8.3.aar/28ac0871b00fea8a8df14d380e50fa1c/AndroidManifest.xml:78:13-61
+meta-data#com.pushwoosh.plugin.inbox
+ADDED from [com.pushwoosh:pushwoosh-inbox:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-inbox-5.8.3.aar/e7d88fc51cfb5509ef8e1f8fcc29cf15/AndroidManifest.xml:36:9-38:72
+	android:value
+		ADDED from [com.pushwoosh:pushwoosh-inbox:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-inbox-5.8.3.aar/e7d88fc51cfb5509ef8e1f8fcc29cf15/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-inbox:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-inbox-5.8.3.aar/e7d88fc51cfb5509ef8e1f8fcc29cf15/AndroidManifest.xml:37:13-54
+activity#com.pushwoosh.inbox.ui.presentation.view.activity.InboxActivity
+ADDED from [com.pushwoosh:pushwoosh-inbox-ui:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-inbox-ui-5.8.3.aar/5e4926ccdcbe5106291d70529a200535/AndroidManifest.xml:37:9-39:51
+	android:theme
+		ADDED from [com.pushwoosh:pushwoosh-inbox-ui:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-inbox-ui-5.8.3.aar/5e4926ccdcbe5106291d70529a200535/AndroidManifest.xml:39:13-48
+	android:name
+		ADDED from [com.pushwoosh:pushwoosh-inbox-ui:5.8.3] /private/var/root/.gradle/caches/transforms-1/files-1.1/pushwoosh-inbox-ui-5.8.3.aar/5e4926ccdcbe5106291d70529a200535/AndroidManifest.xml:38:13-91
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6bf204efd164f53077fedeb6427491ef/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6bf204efd164f53077fedeb6427491ef/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /private/var/root/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/6bf204efd164f53077fedeb6427491ef/AndroidManifest.xml:26:13-58

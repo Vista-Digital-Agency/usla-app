@@ -1,0 +1,25 @@
+{
+	"appId": "com.uslanationals.vista",
+	"appName": "USLA",
+	"webDir": "www",
+	"bundledWebRuntime": false,
+	"plugins": {
+		"SplashScreen": {
+
+			"launchShowDuration": 3000,
+		  
+			"launchAutoHide": false,
+		  
+			"androidScaleType": "CENTER_INSIDE",
+		  
+			"splashFullScreen": false,
+		  
+			"splashImmersive": false,
+		  
+			"backgroundColor": "#FFFFFF",
+		  
+			"androidSplashResourceName": "splash"
+		  
+		  }
+	}
+}

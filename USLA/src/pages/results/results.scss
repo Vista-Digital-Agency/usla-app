@@ -1,0 +1,90 @@
+page-results {
+    .list-header {
+        font-weight: 600;
+    }
+
+    .col {
+        text-align: center;
+        padding: 0px!important;
+    }
+
+    #outerGrid > .row {
+        margin-bottom: 15px;
+    }
+
+    #innerGrid > .row {
+        //border-bottom: 2px solid rgba(36, 31, 31, 0.22);
+        border-left: 2px solid rgba(76, 0, 0, 0.46);
+        border-right: 2px solid rgba(76, 0, 0, 0.46);
+        border-top: 1px solid rgba(76, 0, 0, 0.15);
+        border-bottom: 1px solid rgba(76, 0, 0, 0.15);
+    }
+
+    #innerGrid {
+        //border: 2px solid rgba(36, 31, 31, 0.22);
+        //border: 2px solid rgba(213, 218, 218, 0.19);
+        border: 2px solid rgba(0, 0, 0, 0.18);
+        padding: 0px!important;
+        background-color: #be1d1d;
+        color: white!important;
+    }
+
+    /*#innerGrid > .row > .col:first-of-type {
+        border-right: 1px solid black;
+    }*/
+
+    #innerGrid .row:first-of-type {
+        height: 80px;
+        border-top: 2px solid rgba(76, 0, 0, 0.46);
+    }
+
+    #innerGrid .row .col {
+        height: 100%;
+        align-items: center;
+        vertical-align: middle;
+        display: inline-flex;
+    }
+
+    #innerGrid .row:nth-child(2) .col:first-of-type, #innerGrid .row:first-of-type .col:first-of-type {
+        //border-right: 2px solid rgba(36, 31, 31, 0.22);
+        border-right: 2px solid rgba(76, 0, 0, 0.15);
+    }
+
+    #innerGrid .row:nth-child(2) {
+        height: 50px;
+    }
+
+    #innerGrid .row:nth-child(3) {
+        height: 60px;
+    }
+
+    #innerGrid .row:last-of-type {
+        height: 60px; 
+        //border-bottom: 0px!important;
+        border-bottom: 2px solid rgba(76, 0, 0, 0.46);
+    }
+
+    #innerGrid .row .col div {
+        margin: 0px auto!important;
+        font-weight: bold;
+        padding: 0px 5px;
+    }
+
+    h1 {
+        font-size: 2.4rem!important;
+        margin: 0px auto!important;
+    }
+
+    h2 {
+        font-size: 2rem!important;
+        margin: 0px auto!important;
+    }
+
+    .card {
+        padding: 10px;
+        margin: 12px;
+        width: calc(100% - 24px)!important;
+        background-color: rgba(1, 41, 103, 0.81);
+    }
+
+}
